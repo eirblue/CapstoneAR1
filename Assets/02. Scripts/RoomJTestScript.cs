@@ -10,13 +10,11 @@ public class RoomJTestScript : MonoBehaviour
         
     }
 
-    [SerializeField]
-    private float rotateSpeed;
-
+    public float rotationSpeed;
+    public Vector3 rotationOrigin;
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.up, rotateSpeed*Time.deltaTime);
-        
+        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);        
     }
 }
