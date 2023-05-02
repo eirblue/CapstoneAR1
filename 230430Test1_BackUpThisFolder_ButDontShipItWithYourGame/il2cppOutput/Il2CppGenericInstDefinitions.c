@@ -3201,7 +3201,10 @@ extern Il2CppType MenuButton_t5FBBD57E4378A9FCDB747615454A243C197C42A2_0_0_0;
 extern Il2CppType MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455_0_0_0;
 extern Il2CppType ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_0_0_0;
 extern Il2CppType PrivacyPolicyDisclaimair_t5C4E1BC8F4946B9EA9BF7F88497B07293726ED51_0_0_0;
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 extern Il2CppType Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_0_0_0;
+=======
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 extern Il2CppType Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_0_0_0;
 extern Il2CppType RunTimeApplication_t01252AB5DDD6D616660DB81BEF23193FC04034DB_0_0_0;
 extern Il2CppType ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_0_0_0;
@@ -15845,9 +15848,12 @@ const Il2CppGenericInst GenInst_PrivacyPolicyDisclaimair_t5C4E1BC8F4946B9EA9BF7F
 static const Il2CppType* GenInst_ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_Types[] = { (&ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_0_0_0) };
 extern const Il2CppGenericInst GenInst_ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D;
 const Il2CppGenericInst GenInst_ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D = { 1, GenInst_ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_Types };
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 static const Il2CppType* GenInst_Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_Types[] = { (&Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_0_0_0) };
 extern const Il2CppGenericInst GenInst_Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
 const Il2CppGenericInst GenInst_Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF = { 1, GenInst_Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_Types };
+=======
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 static const Il2CppType* GenInst_Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_Types[] = { (&Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_0_0_0) };
 extern const Il2CppGenericInst GenInst_Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 const Il2CppGenericInst GenInst_Rigidbody_t268697F5A994213ED97393309870968BC1C7393C = { 1, GenInst_Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_Types };
@@ -16641,7 +16647,11 @@ static const Il2CppType* GenInst_fsPropertyAttribute_tD332ED5271DAF1CA8779F33711
 extern const Il2CppGenericInst GenInst_fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131;
 const Il2CppGenericInst GenInst_fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131 = { 1, GenInst_fsPropertyAttribute_tD332ED5271DAF1CA8779F33711F56DAD20A0A131_Types };
 IL2CPP_EXTERN_C const Il2CppGenericInst* const g_Il2CppGenericInstTable[];
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 const Il2CppGenericInst* const g_Il2CppGenericInstTable[4403] = 
+=======
+const Il2CppGenericInst* const g_Il2CppGenericInstTable[5137] = 
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 {
 	&GenInst_TElement_tB263AFF2A593CC9E6D632D75D3C7C2B3366FDC8C,
 	&GenInst_TElement_t6BFF9C29962CBD38DF3A3360BEDE6F2711AA42F5,
@@ -20781,7 +20791,10 @@ const Il2CppGenericInst* const g_Il2CppGenericInstTable[4403] =
 	&GenInst_ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1,
 	&GenInst_PrivacyPolicyDisclaimair_t5C4E1BC8F4946B9EA9BF7F88497B07293726ED51,
 	&GenInst_ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D,
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 	&GenInst_Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF,
+=======
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppGenericInstDefinitions.c
 	&GenInst_Rigidbody_t268697F5A994213ED97393309870968BC1C7393C,
 	&GenInst_RunTimeApplication_t01252AB5DDD6D616660DB81BEF23193FC04034DB,
 	&GenInst_ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E,

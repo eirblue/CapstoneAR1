@@ -24,10 +24,15 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 {
 	6625,
 	g_Il2CppGenericTypes,
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c
 	4403,
+=======
+	5137,
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c
 	g_Il2CppGenericInstTable,
 	46396,
 	g_Il2CppGenericMethodFunctions,
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c
 	21194,
 	g_Il2CppTypeTable,
 	57281,
@@ -35,6 +40,15 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	6778,
 	g_FieldOffsetTable,
 	6778,
+=======
+	25069,
+	g_Il2CppTypeTable,
+	72106,
+	g_Il2CppMethodSpecTable,
+	8021,
+	g_FieldOffsetTable,
+	8021,
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/il2cppOutput/Il2CppMetadataRegistration.c
 	g_Il2CppTypeDefinitionSizesTable,
 	0,
 	NULL,

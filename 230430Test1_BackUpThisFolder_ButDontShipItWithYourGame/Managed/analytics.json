@@ -3,8 +3,13 @@
     "attribute_marked_count_always_link_assembly": 1,
     "attribute_swept_count_always_link_assembly": 0,
     "attribute_total_count_always_link_assembly": 1,
+<<<<<<< Updated upstream:230430Test1_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json
     "attribute_marked_count_preserve": 1489,
     "attribute_total_count_preserve": 1172,
+=======
+    "attribute_marked_count_preserve": 1241,
+    "attribute_total_count_preserve": 1169,
+>>>>>>> Stashed changes:230430Test2_BackUpThisFolder_ButDontShipItWithYourGame/Managed/analytics.json
     "attribute_total_count_preserve_body": 0,
     "attribute_marked_count_required_member": 0,
     "attribute_swept_count_required_member": 8,
