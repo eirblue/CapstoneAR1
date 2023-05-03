@@ -24,58 +24,58 @@ extern void J_ballYPositionController_OnTriggerEnter_mAE563624FDE0868A49A396752F
 extern void J_ballYPositionController_OnTriggerExit_m9D1F2A164672ACCB2308B188D68EB085C95C3907 (void);
 // 0x00000006 System.Void J_ballYPositionController::.ctor()
 extern void J_ballYPositionController__ctor_m96EBD459498EC0D7BCEE77E2BE5479FE50C44CC0 (void);
-// 0x00000007 System.Void J_RoomJTestScript::Start()
-extern void J_RoomJTestScript_Start_m7DAB2CBBF8ECC20F7D6CE4B5DA14168DB620DA1C (void);
-// 0x00000008 System.Void J_RoomJTestScript::Update()
-extern void J_RoomJTestScript_Update_m24C861AC27952B88B291E92B71BBE72FC8AE9451 (void);
-// 0x00000009 System.Void J_RoomJTestScript::.ctor()
-extern void J_RoomJTestScript__ctor_mA8B590BDCD8D077390B3A6199A44D92CAA4DD4D6 (void);
-// 0x0000000A System.Void J_SceneChangeController::EnterTitleScene()
-extern void J_SceneChangeController_EnterTitleScene_m31521F3AFE5652116BFC533B4A1FBFBBBE7D6D66 (void);
-// 0x0000000B System.Void J_SceneChangeController::EnterGameScene()
-extern void J_SceneChangeController_EnterGameScene_m464E96D98ABD09387FE99C3A566D25096DEDA277 (void);
-// 0x0000000C System.Void J_SceneChangeController::EnterEndingScene()
-extern void J_SceneChangeController_EnterEndingScene_m245F6C987455BB499F1FAB83324DFF400718661E (void);
-// 0x0000000D System.Void J_SceneChangeController::EnterCreditScene()
-extern void J_SceneChangeController_EnterCreditScene_m3C6C65FF26AEBDE9A9DF0735CEC08103DC5316E6 (void);
-// 0x0000000E System.Void J_SceneChangeController::EndGame()
-extern void J_SceneChangeController_EndGame_mF27EB09F9F20F7A65197402E918CD203C34BDD18 (void);
-// 0x0000000F System.Void J_SceneChangeController::ExitButtonWhilePlaying()
-extern void J_SceneChangeController_ExitButtonWhilePlaying_m97F1413F1E7A5C16E3A1E1E32F74438B158B3522 (void);
-// 0x00000010 System.Void J_SceneChangeController::NotQuitting()
-extern void J_SceneChangeController_NotQuitting_m72262CD7925683686EB8CE97F0F65DA9840AB745 (void);
-// 0x00000011 System.Void J_SceneChangeController::.ctor()
-extern void J_SceneChangeController__ctor_mF2093BAC6D0D27339C3A737B7115263814B34AEF (void);
-// 0x00000012 System.Collections.IEnumerator J_ReturnButtonController::Start()
+// 0x00000007 System.Collections.IEnumerator J_ReturnButtonController::Start()
 extern void J_ReturnButtonController_Start_mD2963523A8A1600EDF9CBF92AAF139FD0DBA285A (void);
-// 0x00000013 System.Collections.IEnumerator J_ReturnButtonController::WaitAndActivateReturnBtn()
+// 0x00000008 System.Collections.IEnumerator J_ReturnButtonController::WaitAndActivateReturnBtn()
 extern void J_ReturnButtonController_WaitAndActivateReturnBtn_m0E8149F17EF7BE70821E9EA9621BD748B7A3EFDD (void);
-// 0x00000014 System.Void J_ReturnButtonController::.ctor()
+// 0x00000009 System.Void J_ReturnButtonController::.ctor()
 extern void J_ReturnButtonController__ctor_m35196F6C9D3A7375B782A16E3FF45F8E885C41E6 (void);
-// 0x00000015 System.Void J_ReturnButtonController/<Start>d__1::.ctor(System.Int32)
+// 0x0000000A System.Void J_ReturnButtonController/<Start>d__1::.ctor(System.Int32)
 extern void U3CStartU3Ed__1__ctor_mAA7496E6976B62DAE4A6A239E129E3028CBA71BD (void);
-// 0x00000016 System.Void J_ReturnButtonController/<Start>d__1::System.IDisposable.Dispose()
+// 0x0000000B System.Void J_ReturnButtonController/<Start>d__1::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m3B3741F8235B15A286CEABD04D086266087D5F62 (void);
-// 0x00000017 System.Boolean J_ReturnButtonController/<Start>d__1::MoveNext()
+// 0x0000000C System.Boolean J_ReturnButtonController/<Start>d__1::MoveNext()
 extern void U3CStartU3Ed__1_MoveNext_m0CC8FC41D901AF2AD49004AF19FCA29FD21ED7BC (void);
-// 0x00000018 System.Object J_ReturnButtonController/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000000D System.Object J_ReturnButtonController/<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC27CA5E3EEBAF6ABE355D6F5477A87D8F235DF08 (void);
-// 0x00000019 System.Void J_ReturnButtonController/<Start>d__1::System.Collections.IEnumerator.Reset()
+// 0x0000000E System.Void J_ReturnButtonController/<Start>d__1::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_mA528201A7FB1616E56831478A6EF306641ACC120 (void);
-// 0x0000001A System.Object J_ReturnButtonController/<Start>d__1::System.Collections.IEnumerator.get_Current()
+// 0x0000000F System.Object J_ReturnButtonController/<Start>d__1::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_mF971D7D8FB6AD3FD8EB3D4C6CF88446CB062E93B (void);
-// 0x0000001B System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::.ctor(System.Int32)
+// 0x00000010 System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::.ctor(System.Int32)
 extern void U3CWaitAndActivateReturnBtnU3Ed__2__ctor_mDC84530E53CA310E087FFB994764095D78310A0B (void);
-// 0x0000001C System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.IDisposable.Dispose()
+// 0x00000011 System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.IDisposable.Dispose()
 extern void U3CWaitAndActivateReturnBtnU3Ed__2_System_IDisposable_Dispose_m6DA65DE5BF37005C4EB79D617C20D3D8A4928FC1 (void);
-// 0x0000001D System.Boolean J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::MoveNext()
+// 0x00000012 System.Boolean J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::MoveNext()
 extern void U3CWaitAndActivateReturnBtnU3Ed__2_MoveNext_mF962B417AC10B4106E3567B1AF9D7D9F958659A6 (void);
-// 0x0000001E System.Object J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000013 System.Object J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBC7E11EE3FDEEE7BDB4768E4C57DEB6775F24BC0 (void);
-// 0x0000001F System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.IEnumerator.Reset()
+// 0x00000014 System.Void J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.IEnumerator.Reset()
 extern void U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_IEnumerator_Reset_mDC3DCB82F83499BA977E3BB21B4C2DE2AA6CEAE1 (void);
-// 0x00000020 System.Object J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.IEnumerator.get_Current()
+// 0x00000015 System.Object J_ReturnButtonController/<WaitAndActivateReturnBtn>d__2::System.Collections.IEnumerator.get_Current()
 extern void U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_IEnumerator_get_Current_mA8F51929FB238EB6D7FEC5BCE6CE0E13AD2CBEFC (void);
+// 0x00000016 System.Void J_RoomJTestScript::Start()
+extern void J_RoomJTestScript_Start_m7DAB2CBBF8ECC20F7D6CE4B5DA14168DB620DA1C (void);
+// 0x00000017 System.Void J_RoomJTestScript::Update()
+extern void J_RoomJTestScript_Update_m24C861AC27952B88B291E92B71BBE72FC8AE9451 (void);
+// 0x00000018 System.Void J_RoomJTestScript::.ctor()
+extern void J_RoomJTestScript__ctor_mA8B590BDCD8D077390B3A6199A44D92CAA4DD4D6 (void);
+// 0x00000019 System.Void J_SceneChangeController::EnterTitleScene()
+extern void J_SceneChangeController_EnterTitleScene_m31521F3AFE5652116BFC533B4A1FBFBBBE7D6D66 (void);
+// 0x0000001A System.Void J_SceneChangeController::EnterGameScene()
+extern void J_SceneChangeController_EnterGameScene_m464E96D98ABD09387FE99C3A566D25096DEDA277 (void);
+// 0x0000001B System.Void J_SceneChangeController::EnterEndingScene()
+extern void J_SceneChangeController_EnterEndingScene_m245F6C987455BB499F1FAB83324DFF400718661E (void);
+// 0x0000001C System.Void J_SceneChangeController::EnterCreditScene()
+extern void J_SceneChangeController_EnterCreditScene_m3C6C65FF26AEBDE9A9DF0735CEC08103DC5316E6 (void);
+// 0x0000001D System.Void J_SceneChangeController::EndGame()
+extern void J_SceneChangeController_EndGame_mF27EB09F9F20F7A65197402E918CD203C34BDD18 (void);
+// 0x0000001E System.Void J_SceneChangeController::ExitButtonWhilePlaying()
+extern void J_SceneChangeController_ExitButtonWhilePlaying_m97F1413F1E7A5C16E3A1E1E32F74438B158B3522 (void);
+// 0x0000001F System.Void J_SceneChangeController::NotQuitting()
+extern void J_SceneChangeController_NotQuitting_m72262CD7925683686EB8CE97F0F65DA9840AB745 (void);
+// 0x00000020 System.Void J_SceneChangeController::.ctor()
+extern void J_SceneChangeController__ctor_mF2093BAC6D0D27339C3A737B7115263814B34AEF (void);
 // 0x00000021 System.Void ARCubeInteraction::Start()
 extern void ARCubeInteraction_Start_m3BE12A12304FBCB63A056BEF3C605B67851B492B (void);
 // 0x00000022 System.Void ARCubeInteraction::Initialize()
@@ -2337,24 +2337,24 @@ extern void AotStubs_J_ballYPositionController_op_Implicit_m4B54D6EEE94B8F73A12B
 extern void AotStubs_J_ballYPositionController_op_Equality_mACFCD60C91E1AE1AA67E60846C56288B4BB0D095 (void);
 // 0x0000048F System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ballYPositionController_op_Inequality()
 extern void AotStubs_J_ballYPositionController_op_Inequality_m21CA8EE97442AF2BB169429734E8B6F8DCD572ED (void);
-// 0x00000490 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Implicit()
-extern void AotStubs_J_RoomJTestScript_op_Implicit_m219D93C09557789EF15C4E67252E38BE15F7FA2F (void);
-// 0x00000491 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Equality()
-extern void AotStubs_J_RoomJTestScript_op_Equality_m8C6405391B0EA5F707747636FB3BE90BEFAE0A8C (void);
-// 0x00000492 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Inequality()
-extern void AotStubs_J_RoomJTestScript_op_Inequality_m5EAC0F59C497201B0E7C36489EB29895D72FE6CE (void);
-// 0x00000493 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Implicit()
-extern void AotStubs_J_SceneChangeController_op_Implicit_m950D01358E391A64EA11251CFABCC28E8B4538E5 (void);
-// 0x00000494 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Equality()
-extern void AotStubs_J_SceneChangeController_op_Equality_m442EFC256BFBAC1DBB41FA343F9DEF4597644730 (void);
-// 0x00000495 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Inequality()
-extern void AotStubs_J_SceneChangeController_op_Inequality_mA0E0DB1FA5BA4F8F4C22131F01A6155579610909 (void);
-// 0x00000496 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Implicit()
+// 0x00000490 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Implicit()
 extern void AotStubs_J_ReturnButtonController_op_Implicit_mF7EDF2D1EFB826D9AA9D74392719EE3F9F9C897D (void);
-// 0x00000497 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Equality()
+// 0x00000491 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Equality()
 extern void AotStubs_J_ReturnButtonController_op_Equality_m2987DC4F5BD7BCA4615FE749CD3DE5EED250BA34 (void);
-// 0x00000498 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Inequality()
+// 0x00000492 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_ReturnButtonController_op_Inequality()
 extern void AotStubs_J_ReturnButtonController_op_Inequality_m7F9209910894AFF13398CE3EDF05B6C2B4B4C13F (void);
+// 0x00000493 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Implicit()
+extern void AotStubs_J_RoomJTestScript_op_Implicit_m219D93C09557789EF15C4E67252E38BE15F7FA2F (void);
+// 0x00000494 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Equality()
+extern void AotStubs_J_RoomJTestScript_op_Equality_m8C6405391B0EA5F707747636FB3BE90BEFAE0A8C (void);
+// 0x00000495 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_RoomJTestScript_op_Inequality()
+extern void AotStubs_J_RoomJTestScript_op_Inequality_m5EAC0F59C497201B0E7C36489EB29895D72FE6CE (void);
+// 0x00000496 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Implicit()
+extern void AotStubs_J_SceneChangeController_op_Implicit_m950D01358E391A64EA11251CFABCC28E8B4538E5 (void);
+// 0x00000497 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Equality()
+extern void AotStubs_J_SceneChangeController_op_Equality_m442EFC256BFBAC1DBB41FA343F9DEF4597644730 (void);
+// 0x00000498 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::J_SceneChangeController_op_Inequality()
+extern void AotStubs_J_SceneChangeController_op_Inequality_mA0E0DB1FA5BA4F8F4C22131F01A6155579610909 (void);
 // 0x00000499 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::ARCubeInteraction_op_Implicit()
 extern void AotStubs_ARCubeInteraction_op_Implicit_m87474B5E9899EB55F6030F50A144DFBA2F23C242 (void);
 // 0x0000049A System.Void Unity.VisualScripting.Generated.Aot.AotStubs::ARCubeInteraction_op_Equality()
@@ -3363,30 +3363,30 @@ extern void AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Implicit_m7
 extern void AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Equality_mC1DA80799C4FBDA57FAFC4606FC8F9C5F32E3F15 (void);
 // 0x00000690 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARRaycastManager_op_Inequality()
 extern void AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Inequality_m42D982EDEE6CB93039A90A96612E955EAE7B58BA (void);
-// 0x00000691 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_UI_Text_text()
-extern void AotStubs_UnityEngine_UI_Text_text_mE211B48AA763AC64900AA6970F4A1C4B87785B97 (void);
-// 0x00000692 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Transform_rotation()
-extern void AotStubs_UnityEngine_Transform_rotation_m44D9063117FF01481D7C27726F48F1ECD592098D (void);
-// 0x00000693 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Input_GetTouch()
-extern void AotStubs_UnityEngine_Input_GetTouch_m7A5DC7506879D24B9295488C15E5C4FE6EA73F89 (void);
-// 0x00000694 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::bool_ToString()
-extern void AotStubs_bool_ToString_mD1FF9CD9BDD141612DF000FCCFF18FBF4652D1FF (void);
-// 0x00000695 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Touch_position()
-extern void AotStubs_UnityEngine_Touch_position_mE8568A8888323A42D2C330DCDE4F4A73343F72BC (void);
-// 0x00000696 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Transform_position()
-extern void AotStubs_UnityEngine_Transform_position_mB5181466C89B71C73E9790F64D5DED5E18CDF2C6 (void);
-// 0x00000697 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_Instantiate()
-extern void AotStubs_UnityEngine_GameObject_Instantiate_m37BB2C8EBD276F1834B5F52C0464EC0C270F4AE5 (void);
-// 0x00000698 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_FindObjectOfType()
-extern void AotStubs_UnityEngine_GameObject_FindObjectOfType_m039C5101C8870BD09F4E0BFEB1E418F75D503397 (void);
-// 0x00000699 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_Destroy()
-extern void AotStubs_UnityEngine_GameObject_Destroy_m137EB1E74D998A1FF2FBA9CF0989D07D15A77670 (void);
-// 0x0000069A System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARPlaneManager_enabled()
-extern void AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_enabled_m5477BD12CC0934E9B8EED7A8FDD280CE8E9B73AC (void);
-// 0x0000069B System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive()
-extern void AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive_mDB9077D2B3E3466A24A20909BC80DC65DAE94673 (void);
-// 0x0000069C System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARRaycastManager_Raycast()
+// 0x00000691 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARRaycastManager_Raycast()
 extern void AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_Raycast_m14C9AD3CF477CB00D0A5A8FE05FB2F6D333CC5B2 (void);
+// 0x00000692 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive()
+extern void AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive_mDB9077D2B3E3466A24A20909BC80DC65DAE94673 (void);
+// 0x00000693 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARPlaneManager_enabled()
+extern void AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_enabled_m5477BD12CC0934E9B8EED7A8FDD280CE8E9B73AC (void);
+// 0x00000694 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_Destroy()
+extern void AotStubs_UnityEngine_GameObject_Destroy_m137EB1E74D998A1FF2FBA9CF0989D07D15A77670 (void);
+// 0x00000695 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_FindObjectOfType()
+extern void AotStubs_UnityEngine_GameObject_FindObjectOfType_m039C5101C8870BD09F4E0BFEB1E418F75D503397 (void);
+// 0x00000696 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_UI_Text_text()
+extern void AotStubs_UnityEngine_UI_Text_text_mE211B48AA763AC64900AA6970F4A1C4B87785B97 (void);
+// 0x00000697 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Transform_rotation()
+extern void AotStubs_UnityEngine_Transform_rotation_m44D9063117FF01481D7C27726F48F1ECD592098D (void);
+// 0x00000698 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Input_GetTouch()
+extern void AotStubs_UnityEngine_Input_GetTouch_m7A5DC7506879D24B9295488C15E5C4FE6EA73F89 (void);
+// 0x00000699 System.Void Unity.VisualScripting.Generated.Aot.AotStubs::bool_ToString()
+extern void AotStubs_bool_ToString_mD1FF9CD9BDD141612DF000FCCFF18FBF4652D1FF (void);
+// 0x0000069A System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Touch_position()
+extern void AotStubs_UnityEngine_Touch_position_mE8568A8888323A42D2C330DCDE4F4A73343F72BC (void);
+// 0x0000069B System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_Transform_position()
+extern void AotStubs_UnityEngine_Transform_position_mB5181466C89B71C73E9790F64D5DED5E18CDF2C6 (void);
+// 0x0000069C System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_GameObject_Instantiate()
+extern void AotStubs_UnityEngine_GameObject_Instantiate_m37BB2C8EBD276F1834B5F52C0464EC0C270F4AE5 (void);
 // 0x0000069D System.Void Unity.VisualScripting.Generated.Aot.AotStubs::UnityEngine_XR_ARFoundation_ARRaycastManager_ctor()
 extern void AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_ctor_m63BD19E49D7F1254EEEEC50B8DCA7FAEA73426F6 (void);
 // 0x0000069E System.Void Unity.VisualScripting.Generated.Aot.AotStubs::Unity_VisualScripting_AotList_ctor()
@@ -4067,17 +4067,6 @@ static Il2CppMethodPointer s_methodPointers[2028] =
 	J_ballYPositionController_OnTriggerEnter_mAE563624FDE0868A49A396752F17BB7480D31B0A,
 	J_ballYPositionController_OnTriggerExit_m9D1F2A164672ACCB2308B188D68EB085C95C3907,
 	J_ballYPositionController__ctor_m96EBD459498EC0D7BCEE77E2BE5479FE50C44CC0,
-	J_RoomJTestScript_Start_m7DAB2CBBF8ECC20F7D6CE4B5DA14168DB620DA1C,
-	J_RoomJTestScript_Update_m24C861AC27952B88B291E92B71BBE72FC8AE9451,
-	J_RoomJTestScript__ctor_mA8B590BDCD8D077390B3A6199A44D92CAA4DD4D6,
-	J_SceneChangeController_EnterTitleScene_m31521F3AFE5652116BFC533B4A1FBFBBBE7D6D66,
-	J_SceneChangeController_EnterGameScene_m464E96D98ABD09387FE99C3A566D25096DEDA277,
-	J_SceneChangeController_EnterEndingScene_m245F6C987455BB499F1FAB83324DFF400718661E,
-	J_SceneChangeController_EnterCreditScene_m3C6C65FF26AEBDE9A9DF0735CEC08103DC5316E6,
-	J_SceneChangeController_EndGame_mF27EB09F9F20F7A65197402E918CD203C34BDD18,
-	J_SceneChangeController_ExitButtonWhilePlaying_m97F1413F1E7A5C16E3A1E1E32F74438B158B3522,
-	J_SceneChangeController_NotQuitting_m72262CD7925683686EB8CE97F0F65DA9840AB745,
-	J_SceneChangeController__ctor_mF2093BAC6D0D27339C3A737B7115263814B34AEF,
 	J_ReturnButtonController_Start_mD2963523A8A1600EDF9CBF92AAF139FD0DBA285A,
 	J_ReturnButtonController_WaitAndActivateReturnBtn_m0E8149F17EF7BE70821E9EA9621BD748B7A3EFDD,
 	J_ReturnButtonController__ctor_m35196F6C9D3A7375B782A16E3FF45F8E885C41E6,
@@ -4093,6 +4082,17 @@ static Il2CppMethodPointer s_methodPointers[2028] =
 	U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBC7E11EE3FDEEE7BDB4768E4C57DEB6775F24BC0,
 	U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_IEnumerator_Reset_mDC3DCB82F83499BA977E3BB21B4C2DE2AA6CEAE1,
 	U3CWaitAndActivateReturnBtnU3Ed__2_System_Collections_IEnumerator_get_Current_mA8F51929FB238EB6D7FEC5BCE6CE0E13AD2CBEFC,
+	J_RoomJTestScript_Start_m7DAB2CBBF8ECC20F7D6CE4B5DA14168DB620DA1C,
+	J_RoomJTestScript_Update_m24C861AC27952B88B291E92B71BBE72FC8AE9451,
+	J_RoomJTestScript__ctor_mA8B590BDCD8D077390B3A6199A44D92CAA4DD4D6,
+	J_SceneChangeController_EnterTitleScene_m31521F3AFE5652116BFC533B4A1FBFBBBE7D6D66,
+	J_SceneChangeController_EnterGameScene_m464E96D98ABD09387FE99C3A566D25096DEDA277,
+	J_SceneChangeController_EnterEndingScene_m245F6C987455BB499F1FAB83324DFF400718661E,
+	J_SceneChangeController_EnterCreditScene_m3C6C65FF26AEBDE9A9DF0735CEC08103DC5316E6,
+	J_SceneChangeController_EndGame_mF27EB09F9F20F7A65197402E918CD203C34BDD18,
+	J_SceneChangeController_ExitButtonWhilePlaying_m97F1413F1E7A5C16E3A1E1E32F74438B158B3522,
+	J_SceneChangeController_NotQuitting_m72262CD7925683686EB8CE97F0F65DA9840AB745,
+	J_SceneChangeController__ctor_mF2093BAC6D0D27339C3A737B7115263814B34AEF,
 	ARCubeInteraction_Start_m3BE12A12304FBCB63A056BEF3C605B67851B492B,
 	ARCubeInteraction_Initialize_m8A935154D63C8E607E4D844794F1C467EA7F50A1,
 	ARCubeInteraction_Update_m7BFAAAF1BDA7326B3964CA40A75980F166E82D31,
@@ -5228,15 +5228,15 @@ static Il2CppMethodPointer s_methodPointers[2028] =
 	AotStubs_J_ballYPositionController_op_Implicit_m4B54D6EEE94B8F73A12B03066F147DFC7A56A301,
 	AotStubs_J_ballYPositionController_op_Equality_mACFCD60C91E1AE1AA67E60846C56288B4BB0D095,
 	AotStubs_J_ballYPositionController_op_Inequality_m21CA8EE97442AF2BB169429734E8B6F8DCD572ED,
+	AotStubs_J_ReturnButtonController_op_Implicit_mF7EDF2D1EFB826D9AA9D74392719EE3F9F9C897D,
+	AotStubs_J_ReturnButtonController_op_Equality_m2987DC4F5BD7BCA4615FE749CD3DE5EED250BA34,
+	AotStubs_J_ReturnButtonController_op_Inequality_m7F9209910894AFF13398CE3EDF05B6C2B4B4C13F,
 	AotStubs_J_RoomJTestScript_op_Implicit_m219D93C09557789EF15C4E67252E38BE15F7FA2F,
 	AotStubs_J_RoomJTestScript_op_Equality_m8C6405391B0EA5F707747636FB3BE90BEFAE0A8C,
 	AotStubs_J_RoomJTestScript_op_Inequality_m5EAC0F59C497201B0E7C36489EB29895D72FE6CE,
 	AotStubs_J_SceneChangeController_op_Implicit_m950D01358E391A64EA11251CFABCC28E8B4538E5,
 	AotStubs_J_SceneChangeController_op_Equality_m442EFC256BFBAC1DBB41FA343F9DEF4597644730,
 	AotStubs_J_SceneChangeController_op_Inequality_mA0E0DB1FA5BA4F8F4C22131F01A6155579610909,
-	AotStubs_J_ReturnButtonController_op_Implicit_mF7EDF2D1EFB826D9AA9D74392719EE3F9F9C897D,
-	AotStubs_J_ReturnButtonController_op_Equality_m2987DC4F5BD7BCA4615FE749CD3DE5EED250BA34,
-	AotStubs_J_ReturnButtonController_op_Inequality_m7F9209910894AFF13398CE3EDF05B6C2B4B4C13F,
 	AotStubs_ARCubeInteraction_op_Implicit_m87474B5E9899EB55F6030F50A144DFBA2F23C242,
 	AotStubs_ARCubeInteraction_op_Equality_mAB283D3A953528BCBFF4DD311D60A88915B41FA0,
 	AotStubs_ARCubeInteraction_op_Inequality_m89FEE8358E97A8A2480192CFC7FEEA1569A9B60F,
@@ -5741,6 +5741,11 @@ static Il2CppMethodPointer s_methodPointers[2028] =
 	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Implicit_m7F98E470989B1FD3CCF1D6F12EC8E3F7B85108E3,
 	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Equality_mC1DA80799C4FBDA57FAFC4606FC8F9C5F32E3F15,
 	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_op_Inequality_m42D982EDEE6CB93039A90A96612E955EAE7B58BA,
+	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_Raycast_m14C9AD3CF477CB00D0A5A8FE05FB2F6D333CC5B2,
+	AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive_mDB9077D2B3E3466A24A20909BC80DC65DAE94673,
+	AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_enabled_m5477BD12CC0934E9B8EED7A8FDD280CE8E9B73AC,
+	AotStubs_UnityEngine_GameObject_Destroy_m137EB1E74D998A1FF2FBA9CF0989D07D15A77670,
+	AotStubs_UnityEngine_GameObject_FindObjectOfType_m039C5101C8870BD09F4E0BFEB1E418F75D503397,
 	AotStubs_UnityEngine_UI_Text_text_mE211B48AA763AC64900AA6970F4A1C4B87785B97,
 	AotStubs_UnityEngine_Transform_rotation_m44D9063117FF01481D7C27726F48F1ECD592098D,
 	AotStubs_UnityEngine_Input_GetTouch_m7A5DC7506879D24B9295488C15E5C4FE6EA73F89,
@@ -5748,11 +5753,6 @@ static Il2CppMethodPointer s_methodPointers[2028] =
 	AotStubs_UnityEngine_Touch_position_mE8568A8888323A42D2C330DCDE4F4A73343F72BC,
 	AotStubs_UnityEngine_Transform_position_mB5181466C89B71C73E9790F64D5DED5E18CDF2C6,
 	AotStubs_UnityEngine_GameObject_Instantiate_m37BB2C8EBD276F1834B5F52C0464EC0C270F4AE5,
-	AotStubs_UnityEngine_GameObject_FindObjectOfType_m039C5101C8870BD09F4E0BFEB1E418F75D503397,
-	AotStubs_UnityEngine_GameObject_Destroy_m137EB1E74D998A1FF2FBA9CF0989D07D15A77670,
-	AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_enabled_m5477BD12CC0934E9B8EED7A8FDD280CE8E9B73AC,
-	AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_SetTrackablesActive_mDB9077D2B3E3466A24A20909BC80DC65DAE94673,
-	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_Raycast_m14C9AD3CF477CB00D0A5A8FE05FB2F6D333CC5B2,
 	AotStubs_UnityEngine_XR_ARFoundation_ARRaycastManager_ctor_m63BD19E49D7F1254EEEEC50B8DCA7FAEA73426F6,
 	AotStubs_Unity_VisualScripting_AotList_ctor_m44419FA5FF6D2A696FF05D71227EC7A163109599,
 	AotStubs_UnityEngine_XR_ARFoundation_ARPlaneManager_ctor_m5B10F2107811E937491C0DFACD29E59440052D4D,
@@ -6098,17 +6098,6 @@ static const int32_t s_InvokerIndices[2028] =
 	6542,
 	6542,
 	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
-	8231,
 	8095,
 	8095,
 	8231,
@@ -6124,6 +6113,17 @@ static const int32_t s_InvokerIndices[2028] =
 	8095,
 	8231,
 	8095,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
+	8231,
 	8231,
 	8231,
 	8231,
