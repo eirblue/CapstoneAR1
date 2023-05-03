@@ -9,6 +9,7 @@ public class BallDestroyController : MonoBehaviour
         if (collision.gameObject.CompareTag("balls"))
         {
             Debug.Log($"{collision.gameObject.name} has escaped. Now deleting.111111111111111111111111111111111111111111111111");
+Debug.Log($"Woohyun sososososososososososo cute");
             Destroy(collision.gameObject);
         }
     }
