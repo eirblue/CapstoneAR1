@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/_ARPortal/Scenes/AR_Portal.unity
-    guid: 91a41e5d91c4c224ea1d1938c5920c15
+  - enabled: 1
+    path: Assets/01. Scenes/1.TitleScene.unity
+    guid: 2620e78c5dd81cf4297b09401e7d70fd
   - enabled: 1
     path: Assets/ManoMotion ARFoundation/Scenes/ManoMotionSDKProFeatures.unity
     guid: 2e8ecbb9ea2e340009ac8d7dd6fbd854
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/01. Scenes/3.EndingScene.unity
+    guid: 1558101cb97324d479adaa46855f72a0
+  - enabled: 1
+    path: Assets/01. Scenes/4.CreditScene.unity
+    guid: 914edf524c8610c44877d742a7dd63fe
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
