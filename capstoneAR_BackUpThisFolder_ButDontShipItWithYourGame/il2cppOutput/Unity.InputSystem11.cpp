@@ -1263,6 +1263,21 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1038
+struct __StaticArrayInitTypeSizeU3D1038_tC28C31F75224CEC520DB0A52F7C747BDF0E8A242 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1038_tC28C31F75224CEC520DB0A52F7C747BDF0E8A242__padding[1038];
+	};
+};
+
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=104
 struct __StaticArrayInitTypeSizeU3D104_tA1677EB9042DF28F651C756F41B1B978A10472EA 
 {
@@ -1323,8 +1338,8 @@ struct __StaticArrayInitTypeSizeU3D24_t226C5F521B67F6FD3E9C29695114434A267A6141
 	};
 };
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=385
-struct __StaticArrayInitTypeSizeU3D385_tBBBD0E6B915CD88D636AE6749EF20E7BC86924FA 
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=371
+struct __StaticArrayInitTypeSizeU3D371_tE9F5A574450793E6E499EB69CDD3047D5F5F00F9 
 {
 	union
 	{
@@ -1334,12 +1349,12 @@ struct __StaticArrayInitTypeSizeU3D385_tBBBD0E6B915CD88D636AE6749EF20E7BC86924FA
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D385_tBBBD0E6B915CD88D636AE6749EF20E7BC86924FA__padding[385];
+		uint8_t __StaticArrayInitTypeSizeU3D371_tE9F5A574450793E6E499EB69CDD3047D5F5F00F9__padding[371];
 	};
 };
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4123
-struct __StaticArrayInitTypeSizeU3D4123_t2261AC637E699A65613D4B654D0530492CEB4DD7 
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4011
+struct __StaticArrayInitTypeSizeU3D4011_tC6D32A64151F5DC52182F93CCD84032758712B89 
 {
 	union
 	{
@@ -1349,7 +1364,7 @@ struct __StaticArrayInitTypeSizeU3D4123_t2261AC637E699A65613D4B654D0530492CEB4DD
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D4123_t2261AC637E699A65613D4B654D0530492CEB4DD7__padding[4123];
+		uint8_t __StaticArrayInitTypeSizeU3D4011_tC6D32A64151F5DC52182F93CCD84032758712B89__padding[4011];
 	};
 };
 
@@ -1368,8 +1383,8 @@ struct __StaticArrayInitTypeSizeU3D460_t4ABB4E2DEDD6BE50A063561639D025CC2BDD5394
 	};
 };
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=82
-struct __StaticArrayInitTypeSizeU3D82_tBA2AFFE3DC327BB75525B9F4E9F0304305DE6A73 
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84
+struct __StaticArrayInitTypeSizeU3D84_t625EC17B34CB913B5E4B2EA6DB080F5BAF99EAEC 
 {
 	union
 	{
@@ -1379,22 +1394,7 @@ struct __StaticArrayInitTypeSizeU3D82_tBA2AFFE3DC327BB75525B9F4E9F0304305DE6A73
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D82_tBA2AFFE3DC327BB75525B9F4E9F0304305DE6A73__padding[82];
-	};
-};
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=954
-struct __StaticArrayInitTypeSizeU3D954_t0DFAABC998C53E2F211F2E4BA31D2AA92EE778AA 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D954_t0DFAABC998C53E2F211F2E4BA31D2AA92EE778AA__padding[954];
+		uint8_t __StaticArrayInitTypeSizeU3D84_t625EC17B34CB913B5E4B2EA6DB080F5BAF99EAEC__padding[84];
 	};
 };
 
@@ -2239,6 +2239,10 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // System.Void
 
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1038
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1038
+
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=104
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=104
@@ -2255,25 +2259,21 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=385
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=371
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=385
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=371
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4123
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4011
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4123
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=460
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4011
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=460
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=82
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=460
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=82
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=954
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=954
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=976
 
@@ -2296,22 +2296,22 @@ struct U3CPrivateImplementationDetailsU3E_tF62B85DD2C59D87BA6C8DA02965E1F3203A64
 {
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1575 <PrivateImplementationDetails>::20D6FD557BDCEEB113CF0C3EFEF501EB9D7AC4BA787A6A8C0EE057D8A217C869
 	__StaticArrayInitTypeSizeU3D1575_tA8B5FF47C1B66730DBCAE65E998D5358992BC062 ___20D6FD557BDCEEB113CF0C3EFEF501EB9D7AC4BA787A6A8C0EE057D8A217C869_0;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4123 <PrivateImplementationDetails>::58A196D2285D554EBF278B03564263106E9183F3D8B1D0B9D7DBFE1A8B9A9C72
-	__StaticArrayInitTypeSizeU3D4123_t2261AC637E699A65613D4B654D0530492CEB4DD7 ___58A196D2285D554EBF278B03564263106E9183F3D8B1D0B9D7DBFE1A8B9A9C72_1;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=4011 <PrivateImplementationDetails>::63B74E5F0660F3254FE5AC58EE3CD9AC8FF8948DD7A5C9B54D0F8E0C67B3260F
+	__StaticArrayInitTypeSizeU3D4011_tC6D32A64151F5DC52182F93CCD84032758712B89 ___63B74E5F0660F3254FE5AC58EE3CD9AC8FF8948DD7A5C9B54D0F8E0C67B3260F_1;
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=234 <PrivateImplementationDetails>::754FF720715FE60E11AD0300104CDEEB8E30183CF25B417CB06EEF78356058EB
 	__StaticArrayInitTypeSizeU3D234_t6F71BB8FF9822A3A3833BAB22E81F6B6955A781F ___754FF720715FE60E11AD0300104CDEEB8E30183CF25B417CB06EEF78356058EB_2;
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=976 <PrivateImplementationDetails>::874A158EE5E9824634584F1FFF431FA5FC62C2D71CA9FCDCAA012D8A6A926392
 	__StaticArrayInitTypeSizeU3D976_t61AF54C311BB0D3BB3FA5795EB3A69AFB6A26BA0 ___874A158EE5E9824634584F1FFF431FA5FC62C2D71CA9FCDCAA012D8A6A926392_3;
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=460 <PrivateImplementationDetails>::A9936AC77D07F78E7B0473F80D59F6E15FD898CEF491CA47D4EB1BA2AA6A4E66
 	__StaticArrayInitTypeSizeU3D460_t4ABB4E2DEDD6BE50A063561639D025CC2BDD5394 ___A9936AC77D07F78E7B0473F80D59F6E15FD898CEF491CA47D4EB1BA2AA6A4E66_4;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=954 <PrivateImplementationDetails>::BF56B350EBBD93360C17FF824F97B68FF8CFA9A0B0792A2A46455A3B491AC61D
-	__StaticArrayInitTypeSizeU3D954_t0DFAABC998C53E2F211F2E4BA31D2AA92EE778AA ___BF56B350EBBD93360C17FF824F97B68FF8CFA9A0B0792A2A46455A3B491AC61D_5;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=82 <PrivateImplementationDetails>::CC00D156CA5C1F53D14F959A954A4BA074B273397E1D6B86B1157C754CE3A81B
-	__StaticArrayInitTypeSizeU3D82_tBA2AFFE3DC327BB75525B9F4E9F0304305DE6A73 ___CC00D156CA5C1F53D14F959A954A4BA074B273397E1D6B86B1157C754CE3A81B_6;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=371 <PrivateImplementationDetails>::BD3331923AE2D87F6296377CB80C86CE12BF445ED38D4485D28FACFEC06BFF5B
+	__StaticArrayInitTypeSizeU3D371_tE9F5A574450793E6E499EB69CDD3047D5F5F00F9 ___BD3331923AE2D87F6296377CB80C86CE12BF445ED38D4485D28FACFEC06BFF5B_5;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=84 <PrivateImplementationDetails>::D9D05356900CBD90C107CDBD184BC94526EC3F9228772F900FC7C60E3FE82B5A
+	__StaticArrayInitTypeSizeU3D84_t625EC17B34CB913B5E4B2EA6DB080F5BAF99EAEC ___D9D05356900CBD90C107CDBD184BC94526EC3F9228772F900FC7C60E3FE82B5A_6;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1038 <PrivateImplementationDetails>::DECF56A62725B03F2A8BBB3B372DB9FB38E9C95146DAF31983F2C2EDE07A762B
+	__StaticArrayInitTypeSizeU3D1038_tC28C31F75224CEC520DB0A52F7C747BDF0E8A242 ___DECF56A62725B03F2A8BBB3B372DB9FB38E9C95146DAF31983F2C2EDE07A762B_7;
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 <PrivateImplementationDetails>::EEAB0A49E323B940CB01CCD3E80D47F1566617F04466CD5D6190ACDBC495CB2A
-	__StaticArrayInitTypeSizeU3D24_t226C5F521B67F6FD3E9C29695114434A267A6141 ___EEAB0A49E323B940CB01CCD3E80D47F1566617F04466CD5D6190ACDBC495CB2A_7;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=385 <PrivateImplementationDetails>::FEBFC0D421348681767929C155B67FD891786F35D745C0606F2310E6D3186A8E
-	__StaticArrayInitTypeSizeU3D385_tBBBD0E6B915CD88D636AE6749EF20E7BC86924FA ___FEBFC0D421348681767929C155B67FD891786F35D745C0606F2310E6D3186A8E_8;
+	__StaticArrayInitTypeSizeU3D24_t226C5F521B67F6FD3E9C29695114434A267A6141 ___EEAB0A49E323B940CB01CCD3E80D47F1566617F04466CD5D6190ACDBC495CB2A_8;
 	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=104 <PrivateImplementationDetails>::FFCB0A1E90587D61767DBCE765CBEC8743DC4A67B865900B464ED065E4625BD5
 	__StaticArrayInitTypeSizeU3D104_tA1677EB9042DF28F651C756F41B1B978A10472EA ___FFCB0A1E90587D61767DBCE765CBEC8743DC4A67B865900B464ED065E4625BD5_9;
 };

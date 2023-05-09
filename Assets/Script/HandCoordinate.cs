@@ -26,16 +26,17 @@ public class HandCoordinate : MonoBehaviour
 
         skeleton = GameObject.Find("SkeletonParent").transform.GetChild(1).transform.GetChild(8).gameObject;
 
-        Debug.Log(skeleton.name);
+        //Debug.Log(skeleton.name);
         Vector3 position = skeleton.transform.position;
         handcoord.text = "Hand :: " + position.ToString();
 
 
 
-        stage = GameObject.Find("Stage(Clone)");
-            Vector3 stagepos = stage.transform.position;
-            stagecoord.text = "Stage :: \n" + stagepos.ToString();
-            // Debug.Log(stagecoord.text);
+        stage = GameObject.Find("Stage");
+        Vector3 stagepos = stage.transform.position;
+        stagecoord.text = "Stage :: \n" + stagepos.ToString();
+        // Debug.Log(stagecoord.text);
+
 
 
     }

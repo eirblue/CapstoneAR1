@@ -18,19 +18,23 @@ extern void FindObjectsUtility_FindAnyObjectByType_m0DB6DB459BF52A74B398EB069D81
 // 0x00000003 T[] UnityEngine.XR.ARFoundation.InternalUtils.FindObjectsUtility::FindObjectsByType()
 // 0x00000004 UnityEngine.Object[] UnityEngine.XR.ARFoundation.InternalUtils.FindObjectsUtility::FindObjectsByType(System.Type)
 extern void FindObjectsUtility_FindObjectsByType_m3319ABCA3B46008448BE671C3E04A4E73BA7BED0 (void);
-static Il2CppMethodPointer s_methodPointers[4] = 
+// 0x00000005 UnityEngine.XR.ARSubsystems.SerializableGuid UnityEngine.XR.ARFoundation.InternalUtils.SerializableGuidUtility::AsSerializedGuid(System.Guid)
+extern void SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B (void);
+static Il2CppMethodPointer s_methodPointers[5] = 
 {
 	NULL,
 	FindObjectsUtility_FindAnyObjectByType_m0DB6DB459BF52A74B398EB069D81158DEFD84A89,
 	NULL,
 	FindObjectsUtility_FindObjectsByType_m3319ABCA3B46008448BE671C3E04A4E73BA7BED0,
+	SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B,
 };
-static const int32_t s_InvokerIndices[4] = 
+static const int32_t s_InvokerIndices[5] = 
 {
 	0,
-	13183,
+	13201,
 	0,
-	13183,
+	13201,
+	13296,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
@@ -48,7 +52,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_ARFoundation_InternalUtils_
 const Il2CppCodeGenModule g_Unity_XR_ARFoundation_InternalUtils_CodeGenModule = 
 {
 	"Unity.XR.ARFoundation.InternalUtils.dll",
-	4,
+	5,
 	s_methodPointers,
 	0,
 	NULL,
