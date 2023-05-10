@@ -15,7 +15,7 @@ public class TouchScript : MonoBehaviour
 
     private bool TryGetTouchPosition(out Vector2 touchPosition)
     {
-        if(Input.touchCount > 0)
+        if (Input.touchCount > 0)
         {
             touchPosition = Input.GetTouch(0).position;
             return true;
@@ -26,13 +26,13 @@ public class TouchScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!TryGetTouchPosition(out Vector2 touchPosition))
+        if (!TryGetTouchPosition(out Vector2 touchPosition))
         {
             return;
         }
@@ -41,7 +41,7 @@ public class TouchScript : MonoBehaviour
         {
             var hitPose = hits[0].pose;
 
-            if(spawnedObject == null)
+            if (spawnedObject == null)
             {
                 spawnedObject = Instantiate(GameObjectToInstantiate, hitPose.position, hitPose.rotation);
 
@@ -51,7 +51,7 @@ public class TouchScript : MonoBehaviour
                 spawnedObject.transform.position = hitPose.position;
                 spawnedObject.transform.rotation = hitPose.rotation;
 
-                foreach(var plane in arPlaneManager.trackables)
+                foreach (var plane in arPlaneManager.trackables)
                 {
                     plane.gameObject.SetActive(false);
                 }
