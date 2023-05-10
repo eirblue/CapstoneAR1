@@ -32040,7 +32040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t InputDeviceBuilder_GetBestMidPoint_m
 		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_5 = L_4->___m_ChildrenForEachControl_37;
 		V_6 = L_5;
 		V_7 = 0;
-		goto IL_0117;
+		goto IL_0121;
 	}
 
 IL_0033:
@@ -32064,7 +32064,7 @@ IL_0033:
 		uint16_t L_13 = ___1_startOffset;
 		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add((int32_t)L_11, (int32_t)L_12)), 1))) >= ((uint32_t)L_13))))
 		{
-			goto IL_0111;
+			goto IL_011b;
 		}
 	}
 	{
@@ -32074,7 +32074,7 @@ IL_0033:
 		uint16_t L_16 = L_15.___endBitOffset_0;
 		if ((!(((uint32_t)L_14) < ((uint32_t)L_16))))
 		{
-			goto IL_0111;
+			goto IL_011b;
 		}
 	}
 	{
@@ -32086,7 +32086,7 @@ IL_0033:
 		uint16_t L_20 = ___1_startOffset;
 		if ((((int64_t)((int64_t)(uint64_t)L_17)) > ((int64_t)((int64_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)L_20))))))
 		{
-			goto IL_0111;
+			goto IL_011b;
 		}
 	}
 	{
@@ -32097,7 +32097,7 @@ IL_0033:
 		uint16_t L_22 = ___1_startOffset;
 		if ((((int32_t)L_21) == ((int32_t)L_22)))
 		{
-			goto IL_0111;
+			goto IL_011b;
 		}
 	}
 	{
@@ -32109,7 +32109,7 @@ IL_0033:
 		uint16_t L_26 = L_25.___endBitOffset_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)L_24))) == ((int32_t)L_26)))
 		{
-			goto IL_0111;
+			goto IL_011b;
 		}
 	}
 	{
@@ -32157,7 +32157,8 @@ IL_0033:
 IL_00ed:
 	{
 		// if (Math.Abs(stateBlock.effectiveBitOffset - (int)absoluteMidPoint) <
-		//     Math.Abs(closestControlStartPointToMidPoint - absoluteMidPoint))
+		//     Math.Abs(closestControlStartPointToMidPoint - absoluteMidPoint) &&
+		//     stateBlock.effectiveBitOffset >= startOffset)
 		uint32_t L_40;
 		L_40 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118((&V_8), NULL);
 		uint16_t L_41 = V_0;
@@ -32170,29 +32171,38 @@ IL_00ed:
 		L_45 = il2cpp_codegen_abs(((int32_t)il2cpp_codegen_subtract((int32_t)L_43, (int32_t)L_44)));
 		if ((((int64_t)L_42) >= ((int64_t)((int64_t)L_45))))
 		{
-			goto IL_0111;
+			goto IL_011b;
+		}
+	}
+	{
+		uint32_t L_46;
+		L_46 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118((&V_8), NULL);
+		uint16_t L_47 = ___1_startOffset;
+		if ((!(((uint32_t)L_46) >= ((uint32_t)L_47))))
+		{
+			goto IL_011b;
 		}
 	}
 	{
 		// closestControlStartPointToMidPoint = (ushort)stateBlock.effectiveBitOffset;
-		uint32_t L_46;
-		L_46 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118((&V_8), NULL);
-		V_2 = (uint16_t)((int32_t)(uint16_t)L_46);
+		uint32_t L_48;
+		L_48 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118((&V_8), NULL);
+		V_2 = (uint16_t)((int32_t)(uint16_t)L_48);
 	}
 
-IL_0111:
+IL_011b:
 	{
-		int32_t L_47 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_47, 1));
+		int32_t L_49 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_49, 1));
 	}
 
-IL_0117:
+IL_0121:
 	{
 		// foreach (var control in m_Device.m_ChildrenForEachControl)
-		int32_t L_48 = V_7;
-		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_49 = V_6;
-		NullCheck(L_49);
-		if ((((int32_t)L_48) < ((int32_t)((int32_t)(((RuntimeArray*)L_49)->max_length)))))
+		int32_t L_50 = V_7;
+		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_51 = V_6;
+		NullCheck(L_51);
+		if ((((int32_t)L_50) < ((int32_t)((int32_t)(((RuntimeArray*)L_51)->max_length)))))
 		{
 			goto IL_0033;
 		}
@@ -32205,238 +32215,238 @@ IL_0117:
 		// var controlEndMidPointCollisions = 0;
 		V_5 = 0;
 		// foreach (var control in m_Device.m_ChildrenForEachControl)
-		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_50 = __this->___m_Device_0;
-		NullCheck(L_50);
-		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_51 = L_50->___m_ChildrenForEachControl_37;
-		V_6 = L_51;
+		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_52 = __this->___m_Device_0;
+		NullCheck(L_52);
+		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_53 = L_52->___m_ChildrenForEachControl_37;
+		V_6 = L_53;
 		V_7 = 0;
-		goto IL_01ed;
+		goto IL_01f7;
 	}
 
-IL_013f:
+IL_0149:
 	{
 		// foreach (var control in m_Device.m_ChildrenForEachControl)
-		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_52 = V_6;
-		int32_t L_53 = V_7;
-		NullCheck(L_52);
-		int32_t L_54 = L_53;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_55 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
-		V_9 = L_55;
+		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_54 = V_6;
+		int32_t L_55 = V_7;
+		NullCheck(L_54);
+		int32_t L_56 = L_55;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		V_9 = L_57;
 		// if (closestControlStartPointToMidPoint != ushort.MaxValue &&
 		//     closestControlStartPointToMidPoint > control.m_StateBlock.effectiveBitOffset &&
 		//     closestControlStartPointToMidPoint < control.m_StateBlock.effectiveBitOffset + control.m_StateBlock.sizeInBits)
-		uint16_t L_56 = V_2;
-		if ((((int32_t)L_56) == ((int32_t)((int32_t)65535))))
+		uint16_t L_58 = V_2;
+		if ((((int32_t)L_58) == ((int32_t)((int32_t)65535))))
 		{
-			goto IL_017f;
+			goto IL_0189;
 		}
 	}
 	{
-		uint16_t L_57 = V_2;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_58 = V_9;
-		NullCheck(L_58);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_59 = (&L_58->___m_StateBlock_0);
-		uint32_t L_60;
-		L_60 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_59, NULL);
-		if ((!(((uint32_t)L_57) > ((uint32_t)L_60))))
+		uint16_t L_59 = V_2;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_60 = V_9;
+		NullCheck(L_60);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_61 = (&L_60->___m_StateBlock_0);
+		uint32_t L_62;
+		L_62 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_61, NULL);
+		if ((!(((uint32_t)L_59) > ((uint32_t)L_62))))
 		{
-			goto IL_017f;
+			goto IL_0189;
 		}
 	}
 	{
-		uint16_t L_61 = V_2;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_62 = V_9;
-		NullCheck(L_62);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_63 = (&L_62->___m_StateBlock_0);
-		uint32_t L_64;
-		L_64 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_63, NULL);
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_65 = V_9;
-		NullCheck(L_65);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_66 = (&L_65->___m_StateBlock_0);
-		uint32_t L_67;
-		L_67 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_66, NULL);
-		if ((!(((uint32_t)L_61) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_64, (int32_t)L_67))))))
+		uint16_t L_63 = V_2;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_64 = V_9;
+		NullCheck(L_64);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_65 = (&L_64->___m_StateBlock_0);
+		uint32_t L_66;
+		L_66 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_65, NULL);
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_67 = V_9;
+		NullCheck(L_67);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_68 = (&L_67->___m_StateBlock_0);
+		uint32_t L_69;
+		L_69 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_68, NULL);
+		if ((!(((uint32_t)L_63) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_66, (int32_t)L_69))))))
 		{
-			goto IL_017f;
+			goto IL_0189;
 		}
 	}
 	{
 		// controlStartMidPointCollisions++;
-		int32_t L_68 = V_4;
-		V_4 = ((int32_t)il2cpp_codegen_add(L_68, 1));
+		int32_t L_70 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_70, 1));
 	}
 
-IL_017f:
+IL_0189:
 	{
 		// if (closestControlEndPointToMidPoint != ushort.MaxValue &&
 		//     closestControlEndPointToMidPoint > control.m_StateBlock.effectiveBitOffset &&
 		//     closestControlEndPointToMidPoint < control.m_StateBlock.effectiveBitOffset + control.m_StateBlock.sizeInBits)
-		uint16_t L_69 = V_1;
-		if ((((int32_t)L_69) == ((int32_t)((int32_t)65535))))
+		uint16_t L_71 = V_1;
+		if ((((int32_t)L_71) == ((int32_t)((int32_t)65535))))
 		{
-			goto IL_01b8;
+			goto IL_01c2;
 		}
 	}
 	{
-		uint16_t L_70 = V_1;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_71 = V_9;
-		NullCheck(L_71);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_72 = (&L_71->___m_StateBlock_0);
-		uint32_t L_73;
-		L_73 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_72, NULL);
-		if ((!(((uint32_t)L_70) > ((uint32_t)L_73))))
+		uint16_t L_72 = V_1;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_73 = V_9;
+		NullCheck(L_73);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_74 = (&L_73->___m_StateBlock_0);
+		uint32_t L_75;
+		L_75 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_74, NULL);
+		if ((!(((uint32_t)L_72) > ((uint32_t)L_75))))
 		{
-			goto IL_01b8;
+			goto IL_01c2;
 		}
 	}
 	{
-		uint16_t L_74 = V_1;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_75 = V_9;
-		NullCheck(L_75);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_76 = (&L_75->___m_StateBlock_0);
-		uint32_t L_77;
-		L_77 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_76, NULL);
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_78 = V_9;
-		NullCheck(L_78);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_79 = (&L_78->___m_StateBlock_0);
-		uint32_t L_80;
-		L_80 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_79, NULL);
-		if ((!(((uint32_t)L_74) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_77, (int32_t)L_80))))))
+		uint16_t L_76 = V_1;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_77 = V_9;
+		NullCheck(L_77);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_78 = (&L_77->___m_StateBlock_0);
+		uint32_t L_79;
+		L_79 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_78, NULL);
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_80 = V_9;
+		NullCheck(L_80);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_81 = (&L_80->___m_StateBlock_0);
+		uint32_t L_82;
+		L_82 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_81, NULL);
+		if ((!(((uint32_t)L_76) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_79, (int32_t)L_82))))))
 		{
-			goto IL_01b8;
+			goto IL_01c2;
 		}
 	}
 	{
 		// controlEndMidPointCollisions++;
-		int32_t L_81 = V_5;
-		V_5 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+		int32_t L_83 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_83, 1));
 	}
 
-IL_01b8:
+IL_01c2:
 	{
 		// if (absoluteMidPoint > control.m_StateBlock.effectiveBitOffset &&
 		//     absoluteMidPoint < control.m_StateBlock.effectiveBitOffset + control.m_StateBlock.sizeInBits)
-		uint16_t L_82 = V_0;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_83 = V_9;
-		NullCheck(L_83);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_84 = (&L_83->___m_StateBlock_0);
-		uint32_t L_85;
-		L_85 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_84, NULL);
-		if ((!(((uint32_t)L_82) > ((uint32_t)L_85))))
+		uint16_t L_84 = V_0;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_85 = V_9;
+		NullCheck(L_85);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_86 = (&L_85->___m_StateBlock_0);
+		uint32_t L_87;
+		L_87 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_86, NULL);
+		if ((!(((uint32_t)L_84) > ((uint32_t)L_87))))
 		{
-			goto IL_01e7;
+			goto IL_01f1;
 		}
 	}
 	{
-		uint16_t L_86 = V_0;
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_87 = V_9;
-		NullCheck(L_87);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_88 = (&L_87->___m_StateBlock_0);
-		uint32_t L_89;
-		L_89 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_88, NULL);
-		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_90 = V_9;
-		NullCheck(L_90);
-		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_91 = (&L_90->___m_StateBlock_0);
-		uint32_t L_92;
-		L_92 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_91, NULL);
-		if ((!(((uint32_t)L_86) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_89, (int32_t)L_92))))))
+		uint16_t L_88 = V_0;
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_89 = V_9;
+		NullCheck(L_89);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_90 = (&L_89->___m_StateBlock_0);
+		uint32_t L_91;
+		L_91 = InputStateBlock_get_effectiveBitOffset_m9DBDA5338F4242517409E936652D17D62599D118(L_90, NULL);
+		InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_92 = V_9;
+		NullCheck(L_92);
+		InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5* L_93 = (&L_92->___m_StateBlock_0);
+		uint32_t L_94;
+		L_94 = InputStateBlock_get_sizeInBits_m38BFF704420E74EA4F7B85DC24DD3AAD810E8197_inline(L_93, NULL);
+		if ((!(((uint32_t)L_88) < ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_91, (int32_t)L_94))))))
 		{
-			goto IL_01e7;
+			goto IL_01f1;
 		}
 	}
 	{
 		// absoluteMidPointCollisions++;
-		int32_t L_93 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_93, 1));
+		int32_t L_95 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_95, 1));
 	}
 
-IL_01e7:
+IL_01f1:
 	{
-		int32_t L_94 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_94, 1));
+		int32_t L_96 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_96, 1));
 	}
 
-IL_01ed:
+IL_01f7:
 	{
 		// foreach (var control in m_Device.m_ChildrenForEachControl)
-		int32_t L_95 = V_7;
-		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_96 = V_6;
-		NullCheck(L_96);
-		if ((((int32_t)L_95) < ((int32_t)((int32_t)(((RuntimeArray*)L_96)->max_length)))))
+		int32_t L_97 = V_7;
+		InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* L_98 = V_6;
+		NullCheck(L_98);
+		if ((((int32_t)L_97) < ((int32_t)((int32_t)(((RuntimeArray*)L_98)->max_length)))))
 		{
-			goto IL_013f;
+			goto IL_0149;
 		}
 	}
 	{
 		// if (closestControlEndPointToMidPoint != ushort.MaxValue &&
 		//     controlEndMidPointCollisions <= controlStartMidPointCollisions &&
 		//     controlEndMidPointCollisions <= absoluteMidPointCollisions)
-		uint16_t L_97 = V_1;
-		if ((((int32_t)L_97) == ((int32_t)((int32_t)65535))))
+		uint16_t L_99 = V_1;
+		if ((((int32_t)L_99) == ((int32_t)((int32_t)65535))))
 		{
-			goto IL_020d;
-		}
-	}
-	{
-		int32_t L_98 = V_5;
-		int32_t L_99 = V_4;
-		if ((((int32_t)L_98) > ((int32_t)L_99)))
-		{
-			goto IL_020d;
+			goto IL_0217;
 		}
 	}
 	{
 		int32_t L_100 = V_5;
-		int32_t L_101 = V_3;
+		int32_t L_101 = V_4;
 		if ((((int32_t)L_100) > ((int32_t)L_101)))
 		{
-			goto IL_020d;
+			goto IL_0217;
+		}
+	}
+	{
+		int32_t L_102 = V_5;
+		int32_t L_103 = V_3;
+		if ((((int32_t)L_102) > ((int32_t)L_103)))
+		{
+			goto IL_0217;
 		}
 	}
 	{
 		// return closestControlEndPointToMidPoint;
-		uint16_t L_102 = V_1;
-		return L_102;
+		uint16_t L_104 = V_1;
+		return L_104;
 	}
 
-IL_020d:
+IL_0217:
 	{
 		// if (closestControlStartPointToMidPoint != ushort.MaxValue &&
 		//     controlStartMidPointCollisions <= controlEndMidPointCollisions &&
 		//     controlStartMidPointCollisions <= absoluteMidPointCollisions)
-		uint16_t L_103 = V_2;
-		if ((((int32_t)L_103) == ((int32_t)((int32_t)65535))))
+		uint16_t L_105 = V_2;
+		if ((((int32_t)L_105) == ((int32_t)((int32_t)65535))))
 		{
-			goto IL_0222;
-		}
-	}
-	{
-		int32_t L_104 = V_4;
-		int32_t L_105 = V_5;
-		if ((((int32_t)L_104) > ((int32_t)L_105)))
-		{
-			goto IL_0222;
+			goto IL_022c;
 		}
 	}
 	{
 		int32_t L_106 = V_4;
-		int32_t L_107 = V_3;
+		int32_t L_107 = V_5;
 		if ((((int32_t)L_106) > ((int32_t)L_107)))
 		{
-			goto IL_0222;
+			goto IL_022c;
+		}
+	}
+	{
+		int32_t L_108 = V_4;
+		int32_t L_109 = V_3;
+		if ((((int32_t)L_108) > ((int32_t)L_109)))
+		{
+			goto IL_022c;
 		}
 	}
 	{
 		// return closestControlStartPointToMidPoint;
-		uint16_t L_108 = V_2;
-		return L_108;
+		uint16_t L_110 = V_2;
+		return L_110;
 	}
 
-IL_0222:
+IL_022c:
 	{
 		// return absoluteMidPoint;
-		uint16_t L_109 = V_0;
-		return L_109;
+		uint16_t L_111 = V_0;
+		return L_111;
 	}
 }
 IL2CPP_EXTERN_C  uint16_t InputDeviceBuilder_GetBestMidPoint_m71AB347A7FDC8C996549D2C8C2E158F431310650_AdjustorThunk (RuntimeObject* __this, ControlBitRangeNode_t21274A438B0E0877F1495EC579EB1DAF81B1A6B0 ___0_parent, uint16_t ___1_startOffset, const RuntimeMethod* method)

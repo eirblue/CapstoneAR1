@@ -9830,13 +9830,14 @@ IL_005a:
 
 IL_0068:
 	{
-		// return new BindingSyntax(actionMap, bindingIndexInMap);
+		// return new BindingSyntax(actionMap, bindingIndexInMap, action);
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_20 = V_0;
 		int32_t L_21 = V_1;
-		BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 L_22;
-		memset((&L_22), 0, sizeof(L_22));
-		BindingSyntax__ctor_mC1F4AFD3294F170D71F474F895D4789F29875682((&L_22), L_20, L_21, (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)NULL, /*hidden argument*/NULL);
-		return L_22;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_22 = ___0_action;
+		BindingSyntax_t5FB93D8F3518B4640E42E067ECB15541CD123317 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		BindingSyntax__ctor_mC1F4AFD3294F170D71F474F895D4789F29875682((&L_23), L_20, L_21, L_22, /*hidden argument*/NULL);
+		return L_23;
 	}
 }
 // UnityEngine.InputSystem.InputActionSetupExtensions/BindingSyntax UnityEngine.InputSystem.InputActionSetupExtensions::ChangeCompositeBinding(UnityEngine.InputSystem.InputAction,System.String)
@@ -12455,33 +12456,42 @@ IL_005e:
 
 IL_0093:
 	{
-		// m_ActionMap.OnBindingModified();
-		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_20 = __this->___m_ActionMap_0;
-		NullCheck(L_20);
-		InputActionMap_OnBindingModified_m5D83F89CFCDD65DDE6ACF1C887676F7F8C5707B2(L_20, NULL);
-		// if (m_ActionMap.m_SingletonAction != null)
+		// m_Action.m_BindingsCount = m_ActionMap.m_Bindings.LengthSafe();
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_20 = __this->___m_Action_1;
 		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_21 = __this->___m_ActionMap_0;
 		NullCheck(L_21);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_22 = L_21->___m_SingletonAction_8;
-		if (!L_22)
+		InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* L_22 = L_21->___m_Bindings_4;
+		int32_t L_23;
+		L_23 = ArrayHelpers_LengthSafe_TisInputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_m65BEB25B025FF72F8F17C6F867829599AEEB076B(L_22, ArrayHelpers_LengthSafe_TisInputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_m65BEB25B025FF72F8F17C6F867829599AEEB076B_RuntimeMethod_var);
+		NullCheck(L_20);
+		L_20->___m_BindingsCount_10 = L_23;
+		// m_ActionMap.OnBindingModified();
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_24 = __this->___m_ActionMap_0;
+		NullCheck(L_24);
+		InputActionMap_OnBindingModified_m5D83F89CFCDD65DDE6ACF1C887676F7F8C5707B2(L_24, NULL);
+		// if (m_ActionMap.m_SingletonAction != null)
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_25 = __this->___m_ActionMap_0;
+		NullCheck(L_25);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_26 = L_25->___m_SingletonAction_8;
+		if (!L_26)
 		{
-			goto IL_00c6;
+			goto IL_00e1;
 		}
 	}
 	{
 		// m_ActionMap.m_SingletonAction.m_SingletonActionBindings = m_ActionMap.m_Bindings;
-		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_23 = __this->___m_ActionMap_0;
-		NullCheck(L_23);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_24 = L_23->___m_SingletonAction_8;
-		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_25 = __this->___m_ActionMap_0;
-		NullCheck(L_25);
-		InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* L_26 = L_25->___m_Bindings_4;
-		NullCheck(L_24);
-		L_24->___m_SingletonActionBindings_6 = L_26;
-		Il2CppCodeGenWriteBarrier((void**)(&L_24->___m_SingletonActionBindings_6), (void*)L_26);
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_27 = __this->___m_ActionMap_0;
+		NullCheck(L_27);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_28 = L_27->___m_SingletonAction_8;
+		InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09* L_29 = __this->___m_ActionMap_0;
+		NullCheck(L_29);
+		InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57* L_30 = L_29->___m_Bindings_4;
+		NullCheck(L_28);
+		L_28->___m_SingletonActionBindings_6 = L_30;
+		Il2CppCodeGenWriteBarrier((void**)(&L_28->___m_SingletonActionBindings_6), (void*)L_30);
 	}
 
-IL_00c6:
+IL_00e1:
 	{
 		// }
 		return;
