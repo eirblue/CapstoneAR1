@@ -5325,7 +5325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &696799608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6552,7 +6552,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &812892486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11371,7 +11371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1626895181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11387,6 +11387,7 @@ MonoBehaviour:
   gameStage: {fileID: 1018003349277045222, guid: 17b079a5c32db054ab51acf5f6547f88,
     type: 3}
   stageSpawnPos: {fileID: 0}
+  drawPos: {fileID: 0}
 --- !u!4 &1626895182
 Transform:
   m_ObjectHideFlags: 0
