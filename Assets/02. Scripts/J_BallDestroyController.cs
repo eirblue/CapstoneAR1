@@ -8,37 +8,34 @@ public class J_BallDestroyController : MonoBehaviour
     public int disBallScore;
     public GameObject scoreTextObject;
     public TextMeshProUGUI scoreText;
-    private W_ScoreController wScoreCon;
+    private J_BallScoreScript ballScoreIndividual;
 
     private void Start()
     {
-        wScoreCon = new W_ScoreController();
-
-        
+        currScore = 0;       
         scoreTextObject = GameObject.Find("Scor(TMP)");
         scoreText = scoreTextObject.GetComponent<TextMeshProUGUI>();
     }
 
-    public void UpdateScore(int scoreToAdd)
+
+    public int UpdateScore(int scoreToAdd)
     {
-        scoreToAdd = disBallScore;
         currScore += scoreToAdd;
         scoreText.text = "Score: " + currScore;
-
+        return currScore;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        
         if (collision.gameObject.CompareTag("balls") || collision.gameObject.CompareTag("ballsJuingong"))
         {
-            Debug.Log($"{collision.gameObject.name} has escaped. Now deleting.111111111111111111111111111111111111111111111111");
-            Debug.Log($"Woohyun sososososososososososo cute");
+            Debug.Log($"{collision.gameObject.name} has escaped. Now deleting.111111111111111111111111111111111111111111111111");     
 
-            disBallScore = W_ScoreController.ThisBallScoreReturner();
+            disBallScore = collision.gameObject.GetComponent<J_BallScoreScript>().thisBallScore;
+            Debug.Log($"Ball destroyed: {collision.gameObject.name}, Score: {disBallScore} - 999999999999999999999999999999999999999999999999999");
 
-            UpdateScore(currScore);
             // 점수 더하기
+            UpdateScore(disBallScore);
 
             Destroy(collision.gameObject);
         }

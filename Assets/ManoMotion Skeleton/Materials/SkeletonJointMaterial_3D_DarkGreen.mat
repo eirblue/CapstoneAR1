@@ -21,17 +21,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SkeletonJointMaterial_3D_DarkGreen
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords:
-  - _GLOSSYREFLECTIONS_OFF
-  - _SPECULARHIGHLIGHTS_OFF
+  m_Shader: {fileID: 4800000, guid: d0728d1543dc7c842bbf01accffab9a3, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - _ENVIRONMENTREFLECTIONS_OFF
+  - _GLOSSYREFLECTIONS_OFF
+  - _SPECULARHIGHLIGHTS_OFF
   - _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 500
   stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
@@ -127,7 +127,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.21960786, g: 0.49803925, b: 0.43921572, a: 0}
-    - _Color: {r: 0.21960366, g: 0.49803925, b: 0.43921152, a: 0}
+    - _Color: {r: 0.21960035, g: 0.49803925, b: 0.4392082, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
