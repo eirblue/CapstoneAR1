@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 9058215422087255028}
   - component: {fileID: -5658264238369859628}
   - component: {fileID: -1693333391735509507}
+  - component: {fileID: -2640095004672129211}
+  - component: {fileID: -7614839944503310026}
   m_Layer: 0
   m_Name: J_SphereType3_Boss
   m_TagString: balls
@@ -144,4 +146,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f249397fd8614e42ba29e8d9dd0965a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseSpeed: 0.3
+  chaseSpeed: 1
+--- !u!114 &-2640095004672129211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9058215422087255030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &-7614839944503310026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9058215422087255030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed7ee39831e4f5408d3bb8edf14b3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currScore: 5
+  scoreText: {fileID: 0}

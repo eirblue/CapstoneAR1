@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8602157651085487042}
   - component: {fileID: 8602157651085487045}
   - component: {fileID: -5809753138597421491}
+  - component: {fileID: 725460603756027738}
+  - component: {fileID: 3618492200305164330}
   m_Layer: 0
   m_Name: J_SphereType2_Enemies
   m_TagString: balls
@@ -131,3 +133,30 @@ MonoBehaviour:
   yPosNum: 0
   zPosNum: 0
   resetPos: {x: 0, y: 0, z: 0}
+--- !u!114 &725460603756027738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8602157651085487047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &3618492200305164330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8602157651085487047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed7ee39831e4f5408d3bb8edf14b3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currScore: 4
+  scoreText: {fileID: 0}

@@ -10,6 +10,7 @@ TagManager:
   - playBoard
   - balls
   - ballsJuingong
+  - ballDestroy
   layers:
   - Default
   - TransparentFX

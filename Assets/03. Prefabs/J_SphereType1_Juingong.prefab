@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 7313422979097075818}
   - component: {fileID: 7313422979097075821}
   - component: {fileID: 8774572929436086579}
+  - component: {fileID: -6279400744950115824}
+  - component: {fileID: -4706170050188841592}
   m_Layer: 0
   m_Name: J_SphereType1_Juingong
   m_TagString: ballsJuingong
@@ -131,3 +133,30 @@ MonoBehaviour:
   yPosNum: 0
   zPosNum: 0
   resetPos: {x: 0, y: 0, z: 0}
+--- !u!114 &-6279400744950115824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313422979097075823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &-4706170050188841592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313422979097075823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed7ee39831e4f5408d3bb8edf14b3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currScore: 6
+  scoreText: {fileID: 0}
