@@ -965,6 +965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 7654721917996868937, guid: 7cdf23da40685d344af9f9352d367537,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 83c191a2c1d164d4a960c521dc092c1c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cdf23da40685d344af9f9352d367537, type: 3}
 --- !u!4 &735072723855851478 stripped

@@ -6,7 +6,6 @@ public class J_BarrierRotator : MonoBehaviour
 {
     [SerializeField]
     private float rotationSpeed;
-    
     [SerializeField]
     private int rotationParameter;
 
@@ -18,11 +17,9 @@ public class J_BarrierRotator : MonoBehaviour
         {
             rotationSpeed *= -1;
         }
-
-
     }
     void Update()
-    {        
-        transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed);
+    {
+        transform.Rotate(Vector3.up * Mathf.Sin(Time.deltaTime) * rotationSpeed);
     }
 }
