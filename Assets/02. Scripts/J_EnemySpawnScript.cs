@@ -8,16 +8,23 @@ public class J_EnemySpawnScript : MonoBehaviour
 
     public GameObject enemies;
     public GameObject boss;
+    public GameObject barrier;
 
     [SerializeField]
     private bool bossSpotSelected = false;
     [SerializeField]
     private int bossSpotNum;
 
+    [SerializeField]
+    private int barrierSpotNum;
+    [SerializeField]
+    private int barrierSpawnedNum;
 
     void Start()
     {
         bossSpotNum = Random.Range(0, enemySpawnPoss.Count);
+        barrierSpotNum = Random.Range(1, enemySpawnPoss.Count / 2);
+        barrierSpawnedNum = barrierSpotNum;
 
         for (int i = 0; i < enemySpawnPoss.Count; i++)
         {
@@ -25,6 +32,11 @@ public class J_EnemySpawnScript : MonoBehaviour
             {
                 Instantiate(boss, enemySpawnPoss[i].transform);
                 bossSpotSelected = true;
+            }
+            else if (i <= barrierSpotNum && barrierSpawnedNum != 0)
+            {
+                Instantiate(barrier, enemySpawnPoss[i].transform);
+                barrierSpawnedNum -= 1;
             }
             else
             {
