@@ -22,7 +22,7 @@ public class ARPlaneDetection : MonoBehaviour
         currtime = GameObject.Find("time(TMP)");
     }
 
-    public bool stageSpawned=false;
+    public bool stageSpawned = false;
     public List<ARRaycastHit> Hits = new List<ARRaycastHit>();
     // Update is called once per frame
     void Update()
@@ -43,10 +43,12 @@ public class ARPlaneDetection : MonoBehaviour
             }
             arPlaneManager.enabled = false;
         }
-        stage.transform.position = Hits[0].pose.position;
-        stage.transform.rotation = Hits[0].pose.rotation;
+        else
+        {
+            stage.transform.position = Hits[0].pose.position;
+            stage.transform.rotation = Hits[0].pose.rotation;
+        }
     }
-
     public void OnClickReset()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
