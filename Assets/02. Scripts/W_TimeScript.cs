@@ -9,6 +9,7 @@ using TMPro;
 public class W_TimeScript : MonoBehaviour
 {
     public float playTime;
+    public float playTimestatic;
     public TextMeshProUGUI timeText;
     public GameObject timeObject;
     private J_SceneChangeController endScene;
@@ -20,6 +21,7 @@ public class W_TimeScript : MonoBehaviour
         timeObject = GameObject.Find("time(TMP)");
         timeText = timeObject.GetComponent<TextMeshProUGUI>();
         endScene = new J_SceneChangeController();
+        playTimestatic = playTime;
 
     }
 
