@@ -13,10 +13,13 @@ public class ARPlaneDetection : MonoBehaviour
     public GameObject stageprefab;
     private GameObject stage;
     ARPlane arplane;
+    GameObject score;
+    GameObject currtime;
     // Start is called before the first frame update
     void Start()
     {
-        
+        score = GameObject.Find("Scor(TMP)");
+        currtime = GameObject.Find("time(TMP)");
     }
 
     public bool stageSpawned=false;
@@ -52,7 +55,8 @@ public class ARPlaneDetection : MonoBehaviour
         arOcclusionManager.enabled = true;
         arPlaneManager.enabled = true;
         stageSpawned = false;
-
+        score.GetComponent<W_ScoreController>().currScore = 0;
+        currtime.GetComponent<W_TimeScript>().playTime = currtime.GetComponent<W_TimeScript>().playTimestatic;
 
     }
 }
