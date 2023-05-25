@@ -11,7 +11,7 @@ public class J_BarrierRotator : MonoBehaviour
 
     private void Start()
     {
-        rotationSpeed = Random.Range(150, 400);
+        rotationSpeed = Random.Range(60, 120);
         rotationParameter = Random.Range(1, 10);
         if (rotationParameter % 2 == 0)
         {
@@ -20,6 +20,6 @@ public class J_BarrierRotator : MonoBehaviour
     }
     void Update()
     {
-        transform.Rotate(Vector3.up * Mathf.Sin(Time.deltaTime) * rotationSpeed);
+        transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed);
     }
 }

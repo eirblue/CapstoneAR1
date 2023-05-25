@@ -12,7 +12,7 @@ public class J_BallDestroyController : MonoBehaviour
 
     private void Start()
     {
-        currScore = 0;       
+        currScore = 0;
         scoreTextObject = GameObject.Find("Scor(TMP)");
         scoreText = scoreTextObject.GetComponent<TextMeshProUGUI>();
     }
@@ -27,7 +27,7 @@ public class J_BallDestroyController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("balls") || collision.gameObject.CompareTag("ballsJuingong"))
+        if (collision.gameObject.CompareTag("balls") || collision.gameObject.CompareTag("ballsJuingong"))// || collision.gameObject.CompareTag("ballsBoss")
         {
             Debug.Log($"{collision.gameObject.name} has escaped. Now deleting.111111111111111111111111111111111111111111111111");     
 

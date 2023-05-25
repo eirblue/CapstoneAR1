@@ -12,6 +12,7 @@ TagManager:
   - ballsJuingong
   - ballDestroy
   - ballsBarrier
+  - ballsBoss
   layers:
   - Default
   - TransparentFX
