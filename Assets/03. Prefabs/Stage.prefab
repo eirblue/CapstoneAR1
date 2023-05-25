@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e79e29c699459439d60a13589bb7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: {fileID: 7313422979097075823, guid: 2d969c6ed48e08443bc4567fca527ac7, type: 3}
+  juingong: {fileID: 0}
   juingongSpawned: 0
 --- !u!1 &626202763748223591
 GameObject:
@@ -537,6 +537,9 @@ MonoBehaviour:
   disBallScore: 0
   scoreTextObject: {fileID: 0}
   scoreText: {fileID: 0}
+  juingongPrefab: {fileID: 7313422979097075823, guid: 2d969c6ed48e08443bc4567fca527ac7,
+    type: 3}
+  juingongSpawnerPrefab: {fileID: 274538206410413801}
 --- !u!1001 &88252829501269950
 PrefabInstance:
   m_ObjectHideFlags: 0

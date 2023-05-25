@@ -24,8 +24,7 @@ public class J_ballYPositionController : MonoBehaviour
         xPosNum = transform.position.x;
         yPosNum = transform.position.y;
         zPosNum = transform.position.z;
-        ballRb = GetComponent<Rigidbody>();
-        
+        ballRb = GetComponent<Rigidbody>();        
     }
 
     private void OnTriggerEnter(Collider other)

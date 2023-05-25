@@ -57,8 +57,7 @@ public class ARPlaneDetection : MonoBehaviour
         arOcclusionManager.enabled = true;
         arPlaneManager.enabled = true;
         stageSpawned = false;
-        score.GetComponent<W_ScoreController>().currScore = 0;
+        score.GetComponent<W_ScoreController>().ResetScore();
         currtime.GetComponent<W_TimeScript>().playTime = currtime.GetComponent<W_TimeScript>().playTimestatic;
-
     }
 }

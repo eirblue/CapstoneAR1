@@ -21,7 +21,6 @@ public class W_ScoreController : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         currScore += scoreToAdd;
-
         scoreText.text = "Score: " + currScore;
 
     }
@@ -36,21 +35,15 @@ public class W_ScoreController : MonoBehaviour
         }
     }
 
-
-
-
-
-
-    // Start is called before the first frame update
     void Start()
     {
         currScore = 0;
         UpdateScore(currScore);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ResetScore()
     {
-        
+        currScore = 0;
+        scoreText.text = "Score: " + currScore;
     }
 }
