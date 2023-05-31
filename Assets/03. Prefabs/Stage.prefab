@@ -44,7 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e79e29c699459439d60a13589bb7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  juingong: {fileID: 0}
+  juingong: {fileID: 7313422979097075823, guid: 2d969c6ed48e08443bc4567fca527ac7,
+    type: 3}
   juingongSpawned: 0
 --- !u!1 &626202763748223591
 GameObject:
