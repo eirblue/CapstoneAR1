@@ -821,7 +821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ff89055ec3c12419af08d8bb78382c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playTime: 10
+  playTime: 90
   playTimestatic: 0
   timeText: {fileID: 234540083}
   timeObject: {fileID: 0}
