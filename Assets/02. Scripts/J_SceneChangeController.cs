@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class J_SceneChangeController : MonoBehaviour
 {
+    public GameObject scoreObject;
+
     public void EnterTitleScene()
     {
         Debug.Log("Load title scene");
@@ -19,8 +21,8 @@ public class J_SceneChangeController : MonoBehaviour
 
     public void EnterEndingScene()
     {
-        Debug.Log("Load ending scene");
-        SceneManager.LoadScene(2);
+        Debug.Log("Load ending scene");        
+        SceneManager.LoadScene(2);        
     }
 
     public void EnterCreditScene()

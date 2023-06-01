@@ -3,37 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
-
 public class W_ScoreController : MonoBehaviour
 {
     public int currScore;
     [SerializeField]
-    public static int disBallScore;
-    
+    public int disBallScore;
+
     public TextMeshProUGUI scoreText;
 
-    public static int ThisBallScoreReturner()
-    {
-        return disBallScore;
-    }
-
-    public void UpdateScore(int scoreToAdd)
-    {
-        currScore += scoreToAdd;
-        scoreText.text = "Score: " + currScore;
-
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("ballDestroy"))
-        {
-            Debug.Log($"{name} fell, the score is {disBallScore}");
-           
-            UpdateScore(disBallScore);
-        }
-    }
+    public string scoreToCut;
 
     void Start()
     {
@@ -45,5 +23,21 @@ public class W_ScoreController : MonoBehaviour
     {
         currScore = 0;
         scoreText.text = "Score: " + currScore;
+    }
+
+    public string UpdateScore(int scoreToAdd)
+    {
+        currScore += scoreToAdd;
+        scoreText.text = "Score: " + currScore;
+        return scoreText.text;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("ballDestroy"))
+        {
+            Debug.Log($"{name} fell, the score is {disBallScore}");
+            scoreToCut= UpdateScore(disBallScore);          
+        }
     }
 }
