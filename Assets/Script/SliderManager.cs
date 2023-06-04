@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SliderManager : MonoBehaviour
-{
+{//하아아아아아아아아ㅏㅏㅏㅏㅏ
     public Slider sliderA;
 
     float sliderperc;
