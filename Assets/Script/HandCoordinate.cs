@@ -13,6 +13,10 @@ public class HandCoordinate : MonoBehaviour
     public Text stagecoord;
     public Text distanceHandStage;
 
+    public Vector3 handPos;
+    public Vector3 stagePos;
+    public Vector3 handStageDistance;
+
     GameObject skeleton;
     GameObject stage;
 
@@ -32,11 +36,11 @@ public class HandCoordinate : MonoBehaviour
 
         stage = GameObject.Find("Stage");
         Vector3 stagePos = stage.transform.position;
-        stagecoord.text = "Stage :: " + stagePos.ToString();
+        stagecoord.text = "Stage :: \n" + stagePos.ToString();
         // Debug.Log(stagecoord.text);
 
 
-        Vector3 handStageDistance = handPos - stagePos;
+        handStageDistance = handPos - stagePos;
         distanceHandStage.text = "y-axis Distance :: " + Mathf.Abs(handStageDistance.y).ToString();
     }
 }

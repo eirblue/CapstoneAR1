@@ -13,6 +13,8 @@ TagManager:
   - ballDestroy
   - ballsBarrier
   - ballsBoss
+  - skeletonParent
+  - Joint
   layers:
   - Default
   - TransparentFX

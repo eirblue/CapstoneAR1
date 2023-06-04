@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,11 +49,11 @@ MonoBehaviour:
   - {fileID: 8859932428775610060, guid: f1aff8a52ebf189468fb98b21c94d56d, type: 3}
   - {fileID: 1823145456178394599, guid: 9727994025934bd45a2dff98d44bb1b3, type: 3}
   jointsMaterial:
-  - {fileID: 2100000, guid: c35122a1eb6d43942b52c7a822578d09, type: 2}
+  - {fileID: 2100000, guid: 0f8afecda9ab9ed4fb471e6482e26553, type: 2}
   - {fileID: 2100000, guid: 6f2de6aa6d02df346aaccaed95a3ba7b, type: 2}
-  - {fileID: 2100000, guid: 11b437f0aedccd34589d1d19c2f9ca38, type: 2}
-  - {fileID: 2100000, guid: 74c784c21031d2c4abf20df195afd6d5, type: 2}
-  - {fileID: 2100000, guid: 1e9cee0eba7413b429d65bcfb060897e, type: 2}
+  - {fileID: 2100000, guid: 97a85358d3203ae42956dc862bf29b95, type: 2}
+  - {fileID: 2100000, guid: 275bbb2396b9afa4d963d5c94206ad82, type: 2}
+  - {fileID: 2100000, guid: d1d11875e30651d45b35a68f3123e9c1, type: 2}
   - {fileID: 2100000, guid: 9d539c485634e4e44836f745d6e6442d, type: 2}
   - {fileID: 2100000, guid: 419014f37f33c594d82207eb158f83ce, type: 2}
   - {fileID: 2100000, guid: b446f6036cec56a489c1d2e436b3480f, type: 2}

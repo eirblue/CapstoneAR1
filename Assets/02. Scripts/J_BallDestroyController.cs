@@ -39,7 +39,7 @@ public class J_BallDestroyController : MonoBehaviour
             // 점수 더하기
             UpdateScore(disBallScore);
 
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject);            
         }
         else if (collision.gameObject.CompareTag("ballsJuingong"))
         {

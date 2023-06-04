@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274538206410413801}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 1018003349277045221}
   m_Layer: 0
   m_Name: Stage
-  m_TagString: Untagged
+  m_TagString: playBoard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -334,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4637738536687698941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -520,8 +520,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20, y: 1, z: 20}
-  m_Center: {x: 0, y: -1, z: 0}
+  m_Size: {x: 20, y: 0.6363111, z: 20}
+  m_Center: {x: 0, y: -1.1818445, z: 0}
 --- !u!114 &3460529293176876389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,7 +923,7 @@ PrefabInstance:
     - target: {fileID: 3173352398186211663, guid: 7cdf23da40685d344af9f9352d367537,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3173352398186211663, guid: 7cdf23da40685d344af9f9352d367537,
         type: 3}
