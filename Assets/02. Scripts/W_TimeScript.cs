@@ -14,6 +14,9 @@ public class W_TimeScript : MonoBehaviour
     public GameObject timeObject;
     private J_SceneChangeController endScene;
 
+    J_GameOverScoreSetter gameOverScore;
+    W_ScoreController wScoreCon;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +25,7 @@ public class W_TimeScript : MonoBehaviour
         timeText = timeObject.GetComponent<TextMeshProUGUI>();
         endScene = new J_SceneChangeController();
         playTimestatic = playTime;
-
+        
     }
 
     // Update is called once per frame
@@ -33,15 +36,9 @@ public class W_TimeScript : MonoBehaviour
 
         if (playTime <= 0.0f)
         {
-            Debug.Log("game over");
-            //gmae over
+            Debug.Log("game over");            
             endScene.EnterEndingScene();
-
         }
         timeText.text = "Time: " + (int)playTime / 60 + "m " + (int)playTime % 60 + "s";
-
-        
-
-
     }
 }

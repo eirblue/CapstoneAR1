@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class J_JuingongSpawnController : MonoBehaviour
 {
-    public GameObject enemies;
+    public GameObject juingong;
 
     [SerializeField]
     private bool juingongSpawned = false;    
@@ -14,7 +14,7 @@ public class J_JuingongSpawnController : MonoBehaviour
     {
         if (juingongSpawned == false)
         {
-            Instantiate(enemies, transform);
+            Instantiate(juingong, transform);
         }
     }
 }
