@@ -11,7 +11,8 @@ public class HandCoordinate : MonoBehaviour
     private SkeletonInfo skeletoninfo;
     public Text handcoord;
     public Text stagecoord;
-
+    public Vector3 position;
+    public Vector3 stagepos;
 
     GameObject skeleton;
     GameObject stage;
@@ -27,13 +28,13 @@ public class HandCoordinate : MonoBehaviour
         skeleton = GameObject.Find("SkeletonParent").transform.GetChild(1).transform.GetChild(8).gameObject;
 
         //Debug.Log(skeleton.name);
-        Vector3 position = skeleton.transform.position;
+        position = skeleton.transform.position;
         handcoord.text = "Hand :: " + position.ToString();
 
 
 
         stage = GameObject.Find("Stage");
-        Vector3 stagepos = stage.transform.position;
+        stagepos = stage.transform.position;
         stagecoord.text = "Stage :: \n" + stagepos.ToString();
         // Debug.Log(stagecoord.text);
 
