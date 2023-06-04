@@ -29045,16 +29045,22 @@ struct ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA  : public Mono
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stageprefab_9;
 	// UnityEngine.GameObject ARPlaneDetection::stage
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stage_10;
+	// UnityEngine.GameObject ARPlaneDetection::virtualaxis
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___virtualaxis_11;
+	// UnityEngine.GameObject ARPlaneDetection::axis
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___axis_12;
+	// System.Single ARPlaneDetection::distanceOffset
+	float ___distanceOffset_13;
 	// UnityEngine.XR.ARFoundation.ARPlane ARPlaneDetection::arplane
-	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___arplane_11;
+	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___arplane_14;
 	// UnityEngine.GameObject ARPlaneDetection::score
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___score_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___score_15;
 	// UnityEngine.GameObject ARPlaneDetection::currtime
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currtime_13;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currtime_16;
 	// System.Boolean ARPlaneDetection::stageSpawned
-	bool ___stageSpawned_14;
+	bool ___stageSpawned_17;
 	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit> ARPlaneDetection::Hits
-	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___Hits_15;
+	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___Hits_18;
 };
 
 // UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer

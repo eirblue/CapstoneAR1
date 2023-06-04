@@ -820,6 +820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playTime: 90
+  playTimestatic: 0
   timeText: {fileID: 234540083}
   timeObject: {fileID: 0}
 --- !u!1001 &283191951
@@ -1137,6 +1138,8 @@ MonoBehaviour:
   arOcclusionManager: {fileID: 157089624}
   arsession: {fileID: 733978612}
   stageprefab: {fileID: 1018003349277045222, guid: 17b079a5c32db054ab51acf5f6547f88,
+    type: 3}
+  virtualaxis: {fileID: 1419840412952351734, guid: 253daa0c919e1d04e97707e7cc50d995,
     type: 3}
   stageSpawned: 0
 --- !u!1 &356414418

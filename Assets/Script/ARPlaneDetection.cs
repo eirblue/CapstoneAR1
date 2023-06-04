@@ -12,6 +12,10 @@ public class ARPlaneDetection : MonoBehaviour
     public Touch touch;
     public GameObject stageprefab;
     private GameObject stage;
+
+    public GameObject virtualaxis;
+    private GameObject axis;
+    private float distanceOffset = 1.0f;
     ARPlane arplane;
     GameObject score;
     GameObject currtime;
@@ -20,6 +24,7 @@ public class ARPlaneDetection : MonoBehaviour
     {
         score = GameObject.Find("Scor(TMP)");
         currtime = GameObject.Find("time(TMP)");
+       //axis = Instantiate(virtualaxis, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
     }
 
     public bool stageSpawned = false;

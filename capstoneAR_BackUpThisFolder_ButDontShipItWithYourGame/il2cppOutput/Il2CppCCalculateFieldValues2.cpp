@@ -20022,16 +20022,22 @@ struct ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA  : public Mono
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stageprefab_9;
 	// UnityEngine.GameObject ARPlaneDetection::stage
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___stage_10;
+	// UnityEngine.GameObject ARPlaneDetection::virtualaxis
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___virtualaxis_11;
+	// UnityEngine.GameObject ARPlaneDetection::axis
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___axis_12;
+	// System.Single ARPlaneDetection::distanceOffset
+	float ___distanceOffset_13;
 	// UnityEngine.XR.ARFoundation.ARPlane ARPlaneDetection::arplane
-	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___arplane_11;
+	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___arplane_14;
 	// UnityEngine.GameObject ARPlaneDetection::score
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___score_12;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___score_15;
 	// UnityEngine.GameObject ARPlaneDetection::currtime
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currtime_13;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currtime_16;
 	// System.Boolean ARPlaneDetection::stageSpawned
-	bool ___stageSpawned_14;
+	bool ___stageSpawned_17;
 	// System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARRaycastHit> ARPlaneDetection::Hits
-	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___Hits_15;
+	List_1_t0754071572EFE7A5C92A59495D2524FC935364E3* ___Hits_18;
 };
 
 // UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
@@ -30212,9 +30218,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6397[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6398[1] = 
 {
 	static_cast<int32_t>(offsetof(Grayscale_tEF78DD43E03EF50DE8EA1A49B6B350C330C9B168, ___material_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6399[12] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6399[15] = 
 {
-	static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arRaycastManager_4)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arPlaneManager_5)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arOcclusionManager_6)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arsession_7)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___touch_8)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stageprefab_9)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stage_10)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arplane_11)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___score_12)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___currtime_13)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stageSpawned_14)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___Hits_15)),};
+	static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arRaycastManager_4)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arPlaneManager_5)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arOcclusionManager_6)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arsession_7)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___touch_8)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stageprefab_9)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stage_10)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___virtualaxis_11)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___axis_12)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___distanceOffset_13)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___arplane_14)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___score_15)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___currtime_16)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___stageSpawned_17)),static_cast<int32_t>(offsetof(ARPlaneDetection_t6EDD99C8F996E7403F200AC433873C91F75D5DFA, ___Hits_18)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6400[8] = 
 {
 	static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___trackinginfo_4)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___fingerInfo_5)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___skeletonmanager_6)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___skeletoninfo_7)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___handcoord_8)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___stagecoord_9)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___skeleton_10)),static_cast<int32_t>(offsetof(HandCoordinate_t6B35B036A3C50FAF5E8249F5BB51467550093954, ___stage_11)),};
