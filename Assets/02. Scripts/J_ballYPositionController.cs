@@ -24,7 +24,7 @@ public class J_ballYPositionController : MonoBehaviour
         xPosNum = transform.position.x;
         yPosNum = transform.position.y;
         zPosNum = transform.position.z;
-        ballRb = GetComponent<Rigidbody>();        
+        ballRb = GetComponent<Rigidbody>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,7 +33,7 @@ public class J_ballYPositionController : MonoBehaviour
         {
             Debug.Log($"{name} landed on the board");
             yPosNum = other.transform.position.y + (other.transform.localScale.y + transform.localScale.y) / 2;
-            transform.position = new Vector3(transform.position.x, yPosNum, transform.position.z);            
+            transform.position = new Vector3(transform.position.x, yPosNum, transform.position.z);
             ballRb.constraints = RigidbodyConstraints.FreezePositionY;
             posSet = true;
         }
@@ -48,12 +48,12 @@ public class J_ballYPositionController : MonoBehaviour
         if (posSet == true && tag == "ballsBarrier")
         {
             transform.position = initPos;
-        }        
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("playBoard"))
+        if (other.gameObject.CompareTag("playBoard") && (tag == "ballsJuingong" || tag == "balls"))
         {
             Debug.Log($"{name} exited playboard");
             ballRb.constraints = RigidbodyConstraints.None;

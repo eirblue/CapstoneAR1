@@ -11,11 +11,11 @@ public class HandCoordinate : MonoBehaviour
     private SkeletonInfo skeletoninfo;
     public Text handcoord;
     public Text stagecoord;
-
+    public Text distanceHandStage;
 
     GameObject skeleton;
     GameObject stage;
-    // Start is called before the first frame update
+
     void Start()
     {
 
@@ -27,17 +27,16 @@ public class HandCoordinate : MonoBehaviour
         skeleton = GameObject.Find("SkeletonParent").transform.GetChild(1).transform.GetChild(8).gameObject;
 
         //Debug.Log(skeleton.name);
-        Vector3 position = skeleton.transform.position;
-        handcoord.text = "Hand :: " + position.ToString();
-
-
+        Vector3 handPos = skeleton.transform.position;
+        handcoord.text = "Hand :: " + handPos.ToString();
 
         stage = GameObject.Find("Stage");
-        Vector3 stagepos = stage.transform.position;
-        stagecoord.text = "Stage :: \n" + stagepos.ToString();
+        Vector3 stagePos = stage.transform.position;
+        stagecoord.text = "Stage :: " + stagePos.ToString();
         // Debug.Log(stagecoord.text);
 
 
-
+        Vector3 handStageDistance = handPos - stagePos;
+        distanceHandStage.text = "y-axis Distance :: " + Mathf.Abs(handStageDistance.y).ToString();
     }
 }
