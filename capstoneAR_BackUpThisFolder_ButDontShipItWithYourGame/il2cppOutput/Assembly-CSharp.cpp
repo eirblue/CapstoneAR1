@@ -17112,7 +17112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManomotionManager_InstantiateHandInfos_m
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___hand_infos_9), (void*)L_0);
 		// for (int i = 0; i < hand_infos.Length; i++)
 		V_0 = 0;
-		goto IL_00e5;
+		goto IL_00c9;
 	}
 
 IL_0013:
@@ -17123,63 +17123,56 @@ IL_0013:
 		NullCheck(L_1);
 		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_3 = (&((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)))->___hand_info_0);
 		il2cpp_codegen_initobj(L_3, sizeof(HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F));
-		// hand_infos[i].hand_info.gesture_info = new GestureInfo();
+		// hand_infos[i].hand_info.gesture_info.mano_class = ManoClass.NO_HAND;
 		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_4 = __this->___hand_infos_9;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_6 = (&((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___hand_info_0);
 		GestureInfo_t6A3649A61CC6AE41146CD70953470FF8096805F3* L_7 = (&L_6->___gesture_info_1);
-		il2cpp_codegen_initobj(L_7, sizeof(GestureInfo_t6A3649A61CC6AE41146CD70953470FF8096805F3));
-		// hand_infos[i].hand_info.gesture_info.mano_class = ManoClass.NO_HAND;
+		L_7->___mano_class_0 = (-1);
+		// hand_infos[i].hand_info.gesture_info.hand_side = HandSide.None;
 		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_8 = __this->___hand_infos_9;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_10 = (&((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hand_info_0);
 		GestureInfo_t6A3649A61CC6AE41146CD70953470FF8096805F3* L_11 = (&L_10->___gesture_info_1);
-		L_11->___mano_class_0 = (-1);
-		// hand_infos[i].hand_info.gesture_info.hand_side = HandSide.None;
+		L_11->___hand_side_4 = (-1);
+		// hand_infos[i].hand_info.tracking_info = new TrackingInfo();
 		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_12 = __this->___hand_infos_9;
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
 		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_14 = (&((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hand_info_0);
-		GestureInfo_t6A3649A61CC6AE41146CD70953470FF8096805F3* L_15 = (&L_14->___gesture_info_1);
-		L_15->___hand_side_4 = (-1);
-		// hand_infos[i].hand_info.tracking_info = new TrackingInfo();
+		TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050* L_15 = (&L_14->___tracking_info_0);
+		il2cpp_codegen_initobj(L_15, sizeof(TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050));
+		// hand_infos[i].hand_info.tracking_info.bounding_box = new BoundingBox();
 		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_16 = __this->___hand_infos_9;
 		int32_t L_17 = V_0;
 		NullCheck(L_16);
 		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_18 = (&((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___hand_info_0);
 		TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050* L_19 = (&L_18->___tracking_info_0);
-		il2cpp_codegen_initobj(L_19, sizeof(TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050));
-		// hand_infos[i].hand_info.tracking_info.bounding_box = new BoundingBox();
-		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_20 = __this->___hand_infos_9;
-		int32_t L_21 = V_0;
-		NullCheck(L_20);
-		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_22 = (&((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hand_info_0);
-		TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050* L_23 = (&L_22->___tracking_info_0);
-		BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096* L_24 = (&L_23->___bounding_box_0);
-		il2cpp_codegen_initobj(L_24, sizeof(BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096));
+		BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096* L_20 = (&L_19->___bounding_box_0);
+		il2cpp_codegen_initobj(L_20, sizeof(BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096));
 		// hand_infos[i].hand_info.tracking_info.bounding_box.top_left = new Vector3();
-		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_25 = __this->___hand_infos_9;
-		int32_t L_26 = V_0;
-		NullCheck(L_25);
-		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_27 = (&((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hand_info_0);
-		TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050* L_28 = (&L_27->___tracking_info_0);
-		BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096* L_29 = (&L_28->___bounding_box_0);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_30 = (&L_29->___top_left_0);
-		il2cpp_codegen_initobj(L_30, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_21 = __this->___hand_infos_9;
+		int32_t L_22 = V_0;
+		NullCheck(L_21);
+		HandInfo_tDB1B91EA39130F59CAE8B948A166A546254F670F* L_23 = (&((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22)))->___hand_info_0);
+		TrackingInfo_tCF4F9D34017D7937CC94A792238CE89679D4F050* L_24 = (&L_23->___tracking_info_0);
+		BoundingBox_t4AF3E306CA2CD48494B5954947E6778D7F153096* L_25 = (&L_24->___bounding_box_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_26 = (&L_25->___top_left_0);
+		il2cpp_codegen_initobj(L_26, sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		// for (int i = 0; i < hand_infos.Length; i++)
-		int32_t L_31 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+		int32_t L_27 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
-IL_00e5:
+IL_00c9:
 	{
 		// for (int i = 0; i < hand_infos.Length; i++)
-		int32_t L_32 = V_0;
-		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_33 = __this->___hand_infos_9;
-		NullCheck(L_33);
-		if ((((int32_t)L_32) < ((int32_t)((int32_t)(((RuntimeArray*)L_33)->max_length)))))
+		int32_t L_28 = V_0;
+		HandInfoUnityU5BU5D_t48596BBE2D345A2F674A1F333E45B3D7503B0E21* L_29 = __this->___hand_infos_9;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_0013;
 		}

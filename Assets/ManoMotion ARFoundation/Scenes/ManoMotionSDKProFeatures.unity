@@ -4606,12 +4606,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 521351802, guid: 84b17eee54c744578b650ff304284bda, type: 3}
       propertyPath: m_Value
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 521351802, guid: 84b17eee54c744578b650ff304284bda, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1803106022}
+    - target: {fileID: 521351802, guid: 84b17eee54c744578b650ff304284bda, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ManomotionManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 533587062, guid: 84b17eee54c744578b650ff304284bda, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -4647,12 +4651,12 @@ PrefabInstance:
     - target: {fileID: 114578675002002822, guid: 84b17eee54c744578b650ff304284bda,
         type: 3}
       propertyPath: fastMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114578675002002822, guid: 84b17eee54c744578b650ff304284bda,
         type: 3}
       propertyPath: gestures
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114578675002002822, guid: 84b17eee54c744578b650ff304284bda,
         type: 3}
