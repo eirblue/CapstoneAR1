@@ -375,7 +375,7 @@ public class ManomotionManager : ManomotionBase
         for (int i = 0; i < hand_infos.Length; i++)
         {
             hand_infos[i].hand_info = new HandInfo();
-            hand_infos[i].hand_info.gesture_info = new GestureInfo();
+          //  hand_infos[i].hand_info.gesture_info = new GestureInfo();
             hand_infos[i].hand_info.gesture_info.mano_class = ManoClass.NO_HAND;
             hand_infos[i].hand_info.gesture_info.hand_side = HandSide.None;
             hand_infos[i].hand_info.tracking_info = new TrackingInfo();
